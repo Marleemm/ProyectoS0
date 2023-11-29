@@ -1,0 +1,10 @@
+La clase `Fcfs` en Java extiende la clase 
+`Planificacion` y se utiliza para implementar 
+la lógica del algoritmo de planificación de 
+discos conocido como "First-Come, First-Served" 
+(FCFS). La clase tiene dos constructores: uno 
+predeterminado que inicializa las listas 
+asociadas con la planificación de discos, 
+y otro que toma parámetros para configurar 
+la instancia con una cola de discos, posición 
+inicial del cabezal y el número total de pistas. 

@@ -1,0 +1,20 @@
+Este método `AlgoritmoScan()` implementa el 
+algoritmo de planificación de discos SCAN. 
+En primer lugar, se añade el cabezal a la 
+lista `cola_disco`, que representa la secuencia 
+de solicitudes de pistas del disco. Luego, 
+la lista se ordena, y se determina la posición 
+del cabezal en la cola. Se crean dos subconjuntos 
+de la cola, uno desde la posición del cabezal 
+hasta el final y otro desde el principio hasta 
+la posición del cabezal. Estos subconjuntos se 
+combinan de manera específica para simular el 
+movimiento del cabezal en un patrón SCAN. Se 
+calcula la distancia de búsqueda (resta) entre 
+pistas consecutivas y se acumula la suma total. 
+Finalmente, se calcula y establece el promedio 
+de la distancia de búsqueda. Este método modela 
+el comportamiento del algoritmo SCAN en la 
+planificación de discos, donde el cabezal se 
+mueve en una dirección hasta alcanzar un extremo 
+del disco y luego se invierte.

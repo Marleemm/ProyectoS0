@@ -1,0 +1,18 @@
+Este método, vinculado a la acción de un 
+botón o elemento de la interfaz gráfica 
+llamado "Planificacion_C_LOOK", implementa 
+la planificación de discos utilizando el 
+algoritmo CLook. Inicia limpiando la lista 
+auxiliar, crea una instancia de la clase 
+CLook, configura su lectura, ejecuta el 
+algoritmo, muestra los resultados, agrega 
+la cola del disco a la lista auxiliar, 
+verifica si la operación "CLOOK" ya ha 
+sido registrada en los resultados, y, si 
+no, añade un nuevo resultado a la lista. 
+Luego, actualiza la tabla de resultados en 
+la interfaz y realiza alguna operación para 
+dibujar el estado del disco. En conjunto, 
+el método gestiona la ejecución del algoritmo, 
+la actualización de resultados y la visualización 
+del estado del disco en la interfaz gráfica.

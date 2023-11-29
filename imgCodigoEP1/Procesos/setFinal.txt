@@ -1,0 +1,4 @@
+Este método agrega un nuevo proceso al final de la lista de procesos. Si la lista está vacía, el nuevo proceso 
+se convierte en el primer proceso en la lista. Si la lista no está vacía, se itera a través de la lista hasta 
+llegar al último proceso y se establece el siguiente proceso como el nuevo proceso creado. En ambos casos, se 
+incrementa el contador de elementos en la lista.

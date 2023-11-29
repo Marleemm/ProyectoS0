@@ -1,0 +1,5 @@
+Este método muestra en la consola el contenido del array mapaDeBits de manera que cada valor del mapa se 
+imprime seguido de un espacio. Además, cada vez que se ha impreso un bloque de 32 bits, se inserta un salto 
+de línea para mejorar la legibilidad de la salida en la consola. Este tipo de representación es común en 
+sistemas operativos para visualizar el estado de la memoria a través de su mapa de bits, donde cada bit 
+puede representar la ocupación (1) o liberación (0) de un bloque de memoria.

@@ -1,0 +1,15 @@
+Estos métodos siguen el patrón 
+getter-setter para el campo `estado`. 
+El método `isEstado()` es un 
+getter que devuelve el valor 
+actual del campo `estado`, que 
+es un booleano indicando si el 
+bloque está ocupado (`true`) o 
+libre (`false`). Por otro lado, 
+el método `setEstado(boolean estado)` 
+es un setter que permite cambiar 
+el valor del campo `estado` al 
+proporcionar un nuevo valor como 
+parámetro, facilitando la modificación 
+controlada de este atributo desde 
+otras partes del programa. 

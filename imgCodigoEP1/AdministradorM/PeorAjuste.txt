@@ -1,0 +1,5 @@
+Este método intenta asignar memoria al nuevo proceso utilizando el algoritmo de "Peor Ajuste". 
+Busca el hueco más grande que sea suficientemente grande para acomodar el nuevo proceso y lo 
+asigna si encuentra uno adecuado. Si no encuentra un hueco adecuado, imprime un mensaje indicando 
+si el proceso fue encolado o si hay un error de memoria insuficiente. Finalmente, actualiza la 
+memoria con la información del nuevo proceso mediante el método ActualizarMemoria.

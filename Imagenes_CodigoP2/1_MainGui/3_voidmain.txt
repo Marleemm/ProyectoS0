@@ -1,0 +1,2 @@
+Este método es el punto de entrada principal para la aplicación Java. 
+Llama al método launch, que a su vez inicia la aplicación y llama al método start que definiste a continuación.

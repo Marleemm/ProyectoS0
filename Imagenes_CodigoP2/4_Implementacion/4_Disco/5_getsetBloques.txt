@@ -1,0 +1,14 @@
+Estos métodos proporcionan una 
+interfaz para acceder y modificar 
+la lista de bloques (`n_bloques`) 
+en el disco. El método `getN_bloques()` 
+actúa como un getter, devolviendo 
+la referencia actual a la lista de 
+bloques, permitiendo acceder a dicha 
+lista. Por otro lado, `setN_bloques(ArrayList<Bloque> n_bloques)` 
+funciona como un setter, permitiendo 
+cambiar la referencia a la lista de 
+bloques al proporcionar una nueva 
+lista como parámetro, facilitando 
+así la modificación controlada de 
+la lista desde otras partes del programa.

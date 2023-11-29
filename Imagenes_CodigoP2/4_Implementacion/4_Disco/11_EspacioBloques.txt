@@ -1,0 +1,18 @@
+Este método, verifica si hay suficiente 
+espacio libre en bloques en el disco 
+para almacenar un archivo de un tamaño 
+dado (`tamanioArchivo`). Itera a través 
+de la lista de bloques (`n_bloques`) 
+en el disco y cuenta la cantidad de 
+bloques que están actualmente libres 
+(su estado es `false`). La cantidad 
+de bloques libres se almacena en la 
+variable `c`. Luego, imprime la cantidad 
+de bloques libres en la consola (esto 
+puede ser útil para propósitos de depuración). 
+Finalmente, devuelve `true` si la cantidad 
+de bloques libres (`c`) es mayor o igual 
+al tamaño del archivo proporcionado, 
+indicando que hay suficiente espacio 
+para almacenar el archivo. De lo contrario, 
+devuelve `false`.

@@ -1,0 +1,18 @@
+El método `setLeer` configura el estado 
+interno de la instancia utilizando datos 
+leídos desde el archivo "info.txt". 
+Inicializa valores predeterminados para 
+el cabezal y el número de pistas, luego 
+utiliza un objeto `Scanner` para leer 
+enteros desde el archivo y los agrega 
+a la lista `cola_disco`. Después de 
+cerrar el `Scanner`, actualiza el número 
+total de pistas y la posición inicial del 
+cabezal utilizando los primeros dos elementos 
+de la lista `cola_disco`, eliminando estos 
+elementos de la lista. En caso de errores 
+durante la lectura del archivo, imprime un
+mensaje de error en la consola. Este método 
+permite cargar información desde un archivo 
+de texto y configurar dinámicamente el estado 
+de la instancia de la clase `Planificacion`.

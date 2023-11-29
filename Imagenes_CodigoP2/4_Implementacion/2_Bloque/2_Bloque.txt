@@ -1,0 +1,16 @@
+Estos son dos constructores para 
+la clase `Bloque`. El primero se 
+utiliza cuando se crea una instancia 
+sin argumentos, estableciendo el 
+estado del bloque como libre y 
+sin asociar ningún archivo. El 
+segundo constructor se emplea cuando 
+se proporcionan un estado y un número 
+como argumentos, utilizando métodos 
+`setEstado` y `setNumero` para asignar 
+estos valores. Estos constructores 
+permiten inicializar instancias de 
+la clase `Bloque` de manera flexible, 
+ya sea con valores predeterminados o 
+con valores específicos proporcionados 
+durante la creación del objeto.

@@ -1,0 +1,10 @@
+El método `asignarC` en la aplicación JavaFX funciona como un controlador de eventos asociado 
+a la acción de asignar bloques contiguos a un archivo en el disco. Primero, intenta convertir 
+el valor ingresado en el campo de bloque inicial a un número entero y verifica si ese bloque 
+no está actualmente en uso. Si el bloque está disponible, realiza la asignación contigua 
+llamando al método correspondiente en el objeto `disk`. Luego, actualiza la interfaz, habilitando 
+la entrada de datos para el nombre y tamaño de nuevos archivos, desactivando la asignación de 
+bloques contiguos y mostrando visualmente el estado actual del disco y la información del d
+irectorio de archivos. Si el bloque inicial está en uso, se emite una advertencia, y cualquier 
+excepción relacionada con la conversión de datos o la asignación de bloques se maneja, mostrando 
+un mensaje de error. 

@@ -1,0 +1,7 @@
+Este fragmento de código en Java importa 
+las clases `BufferedReader` e `InputStreamReader` 
+del paquete `java.io` y la clase `ArrayList` 
+del paquete `java.util`. Estas clases son 
+comúnmente utilizadas para operaciones de 
+entrada y salida y para gestionar colecciones 
+dinámicas, respectivamente.

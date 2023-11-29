@@ -1,0 +1,15 @@
+Este constructor de la clase `Planificacion` 
+en Java toma tres parámetros: una lista de 
+enteros (`cola_disco`), un entero (`cabezal`), 
+y otro entero (`n_pistas`). Su función es 
+inicializar los atributos de la clase con 
+los valores proporcionados como argumentos. 
+En otras palabras, establece la cola de 
+discos (`cola_disco`), la posición inicial 
+del cabezal (`cabezal`), y el número total 
+de pistas (`n_pistas`) con los valores pasados 
+como parámetros al crear una instancia de la 
+clase `Planificacion`. Este constructor es 
+útil cuando se desea configurar una instancia 
+de `Planificacion` con valores específicos 
+al momento de su creación.

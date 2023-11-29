@@ -1,0 +1,20 @@
+Este método `Ordenar()` implementa la lógica 
+de ordenación de la cola de discos según el 
+algoritmo SSTF (Shortest Seek Time First). 
+Inicialmente, se guarda la posición actual 
+del cabezal en la variable `cabezal_old`. 
+Luego, se ordena la lista `cola_disco` en 
+orden ascendente. Se utiliza un bucle para 
+iterar sobre los elementos de la cola, 
+encontrando el cilindro solicitado más cercano 
+al cabezal en cada iteración y moviendo el 
+cabezal a esa posición. La posición del cabezal 
+y el cilindro solicitado más cercano se agregan 
+a una nueva cola (`nueva_cola`), y el cilindro 
+se elimina de la cola original. Este proceso se 
+repite hasta que la cola original esté vacía. 
+Al finalizar, se restablece la posición original 
+del cabezal y se actualiza la lista `cola_disco` 
+con la nueva cola ordenada según el algoritmo SSTF. 
+Este método prepara la cola de discos para ser 
+procesada por el algoritmo SSTF.

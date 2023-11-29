@@ -1,0 +1,15 @@
+Eeste método implementa la interfaz 
+`Comparable<Resultados>`, permitiendo 
+la comparación de instancias basándose 
+en sus valores de promedio. Utiliza 
+la función `Double.compare()` para 
+realizar la comparación, retornando 
+un valor negativo si el promedio de 
+la instancia actual es menor que el 
+de la instancia pasada como parámetro, 
+cero si son iguales, y un valor positivo 
+si el promedio de la instancia actual 
+es mayor. Este método facilita el 
+ordenamiento de instancias de la clase 
+`Resultados` según sus promedios al 
+utilizar métodos de ordenación como `Collections.sort()`.

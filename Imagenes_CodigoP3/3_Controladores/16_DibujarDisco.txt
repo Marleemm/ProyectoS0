@@ -1,0 +1,16 @@
+La función `DibujarDisco` se encarga de generar 
+una representación visual del estado del disco 
+en la interfaz gráfica. Primero, limpia cualquier 
+contenido existente en el área de visualización. 
+Luego, lee información del archivo "info.txt" 
+sobre el número de pistas y la ubicación de 
+elementos en el disco. Utiliza contenedores 
+(`VBox` y `HBox`) para organizar las pistas, 
+resaltando en rojo aquellas ocupadas, mostrando 
+una representación visual del disco en colores 
+alternos. Además, resalta en verde las pistas 
+visitadas, utilizando la lista `aux`. La función 
+finaliza ajustando las propiedades de visualización 
+de la interfaz. En conjunto, proporciona una 
+visualización detallada y dinámica del estado 
+del disco.

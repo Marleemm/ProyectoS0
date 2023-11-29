@@ -1,0 +1,16 @@
+Este método, vinculado a la acción de un botón 
+en la interfaz gráfica, realiza diversas acciones. 
+En primer lugar, llama al método `agregarInfo` 
+con el contenido actual del campo de texto 
+`cola_elemento`. Luego, lee el contenido del 
+archivo "info.txt", excluyendo las dos primeras 
+líneas, y construye una representación de cola 
+utilizando un `StringBuilder` llamado `cola`. 
+Posteriormente, borra el contenido del campo 
+`cola_elemento`, actualiza el área de texto 
+`cola_screen` con la nueva información de la 
+cola y cierra el lector de archivos. En conjunto, 
+este método procesa la entrada del usuario, 
+manipula información de un archivo y actualiza 
+la interfaz gráfica con la representación actualizada 
+de una cola.

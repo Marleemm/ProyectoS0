@@ -1,0 +1,16 @@
+Estos métodos en la clase `Directorio` 
+implementan un patrón getter-setter 
+para el campo `archivos`, que es un 
+`ArrayList` de objetos de la clase 
+`Archivo`. `getArchivos()` actúa como 
+un getter, devolviendo la referencia 
+actual a la lista de archivos en el 
+directorio, permitiendo acceder a 
+dicha lista. Por otro lado, 
+`setArchivos(ArrayList<Archivo> archivos)` 
+funciona como un setter, permitiendo 
+cambiar la referencia a la lista de 
+archivos al proporcionar una nueva 
+lista como parámetro, facilitando así 
+la modificación controlada de la lista 
+desde otras partes del programa.

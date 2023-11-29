@@ -1,0 +1,10 @@
+El método `getBloqueFinal` devuelve 
+una representación en formato de cadena 
+(String) del último elemento en la 
+lista de bloques asignados (`bloques_asignados`). 
+La expresión `bloques_asignados.size()-1` 
+se refiere al índice del último elemento 
+en la lista, y `bloques_asignados.get(...)` 
+obtiene ese elemento. El método `toString()` 
+convierte este elemento a una cadena antes 
+de devolverlo.

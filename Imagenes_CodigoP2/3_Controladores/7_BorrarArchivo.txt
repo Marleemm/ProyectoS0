@@ -1,0 +1,7 @@
+El método `BorrarArchivo` en la aplicación JavaFX funciona como un controlador de eventos 
+asociado a la acción de eliminar un archivo del disco. En primer lugar, busca el archivo 
+en el disco utilizando el nombre proporcionado en el campo `nom_archivo_borrar`. Si el 
+archivo se encuentra, lo elimina del disco, actualiza la interfaz para reflejar los cambios 
+y muestra un mensaje informativo indicando que la operación se realizó correctamente. En 
+caso de que no se encuentre el archivo, emite una advertencia indicando que el archivo con 
+el nombre especificado no fue hallado. 

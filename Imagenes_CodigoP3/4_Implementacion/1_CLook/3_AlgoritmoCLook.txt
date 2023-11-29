@@ -1,0 +1,14 @@
+El método `AlgoritmoCLook` implementa el 
+algoritmo de planificación de discos 
+denominado "CLook". Comienza agregando 
+la posición actual del cabezal a la cola 
+de discos, la ordena en orden ascendente 
+y determina la posición inicial del cabezal 
+en la cola ordenada. Luego, reorganiza la 
+cola para simular el movimiento unidireccional 
+del cabezal. Calcula las distancias entre 
+pistas consecutivas, las almacena en la lista 
+`resta`, y calcula el promedio de estas 
+distancias. Este método simula el comportamiento 
+del algoritmo CLook para evaluar la eficiencia 
+de la planificación de discos.

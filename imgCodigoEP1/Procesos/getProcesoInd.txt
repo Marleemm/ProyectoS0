@@ -1,0 +1,16 @@
+El método getProceso en la clase Procesos está diseñado para recuperar un objeto Proceso específico 
+de la lista según su índice. La función utiliza un enfoque iterativo, inicializando un iterador i con 
+el primer proceso en la lista y un contador j en 0. Luego, recorre la lista en un bucle while, 
+incrementando el contador en cada iteración hasta que coincide con el índice proporcionado. Cuando 
+encuentra un proceso con el índice correspondiente, devuelve ese objeto Proceso. En caso de que no 
+se encuentre un proceso con el índice buscado, la función retorna null.
+
+Este método proporciona una forma de acceder a un proceso específico en la lista según su posición, 
+permitiendo a los usuarios del código obtener un objeto Proceso específico basándose en su índice en 
+la lista vinculada de procesos.
+
+
+
+
+
+

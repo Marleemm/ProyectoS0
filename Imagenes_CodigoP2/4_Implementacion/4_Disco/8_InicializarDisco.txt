@@ -1,0 +1,8 @@
+El método se utiliza para inicializar 
+la lista de bloques (`n_bloques`) del 
+disco. Utiliza un bucle `for` para crear 
+instancias de la clase `Bloque` con un 
+estado inicial como libre (`false`) y un 
+número identificador correspondiente al 
+índice del bucle. Estos bloques se añaden 
+a la lista de bloques en el disco. 

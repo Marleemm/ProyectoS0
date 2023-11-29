@@ -1,0 +1,10 @@
+Este método tiene como función proporcionar 
+acceso a la lista de enteros `cola_disco` 
+desde fuera de la clase. Es un método de 
+acceso o getter que devuelve la lista 
+`cola_disco` cuando se invoca. Permitir 
+el acceso a través de este método permite 
+que otras clases obtengan la cola de discos 
+almacenada en una instancia de la clase 
+`Planificacion` sin acceder directamente 
+a la variable de instancia.

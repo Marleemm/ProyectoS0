@@ -1,0 +1,5 @@
+Este método parece recorrer el mapa de bits de la memoria y actualizar la información en la lista de procesos (procesos) 
+para reflejar los huecos disponibles en la memoria. Si la lista de procesos contiene procesos, se identifican los huecos 
+entre ellos y se actualizan en la lista. Si la lista de procesos está vacía, se asume que toda la memoria está disponible 
+como un único hueco. Es una forma de mantener actualizada la información sobre los huecos en la memoria según la información 
+contenida en la lista de procesos.

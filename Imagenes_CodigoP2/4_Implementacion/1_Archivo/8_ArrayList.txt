@@ -1,0 +1,12 @@
+Este método, llamado `getBloques_asignados`, 
+es un getter que devuelve la lista de bloques 
+asignados al objeto. En este caso, el método 
+proporciona acceso a la lista de bloques 
+asignados (`bloques_asignados`), permitiendo 
+que otras partes del programa obtengan y 
+utilicen la información sobre los bloques 
+de almacenamiento asociados a un objeto de 
+esta clase. La lista devuelta es del tipo 
+`ArrayList<Integer>`, lo que sugiere que 
+almacena números enteros que representan 
+los bloques asignados.

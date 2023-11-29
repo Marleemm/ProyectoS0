@@ -1,0 +1,17 @@
+Esta clase encapsula información sobre un proceso o bloque de memoria en un sistema. 
+Los métodos de acceso permiten obtener y modificar la información contenida en cada 
+instancia de la clase. La presencia de un constructor predeterminado y otro con parámetros 
+sugiere flexibilidad al crear instancias de la clase con o sin valores específicos.
+Atributos:
+'nombre': Un atributo que almacena el nombre del proceso o, por defecto, se establece como "Hueco".
+'indice': Un atributo que almacena el índice asociado al proceso.
+'n_bloques': Un atributo que almacena el número de bloques asociados al proceso.
+'siguiente': Un atributo que almacena una referencia al siguiente proceso en la lista.
+
+Constructores:
+'Proceso()': Un constructor que crea un objeto Proceso con valores predeterminados, estableciendo el nombre como "Hueco", el número de bloques como 0, el índice como 0 y el siguiente como null.
+'Proceso(String nombre, int n_bloques, int indice, Proceso siguiente)': Un constructor que crea un objeto Proceso con valores específicos proporcionados como argumentos.
+
+Métodos de Acceso (Getters y Setters):
+Métodos get para acceder a los valores de los atributos (getNombre(), getn_bloques(), getIndice(), getSiguiente()).
+Métodos set para modificar los valores de los atributos (setNombre(), setn_bloques(), setIndice(), setSiguiente()).

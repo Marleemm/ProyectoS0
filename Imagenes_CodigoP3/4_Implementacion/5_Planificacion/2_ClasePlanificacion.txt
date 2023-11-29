@@ -1,0 +1,16 @@
+La clase `Planificacion` en Java sirve 
+como un marco para la implementación de 
+algoritmos de planificación de discos. 
+Contiene atributos protegidos, como 
+listas para la cola de discos, distancias 
+entre pistas y resultados, así como 
+variables para el número de pistas, la 
+suma de distancias, el promedio de 
+distancias y la posición actual del cabezal. 
+Su constructor predeterminado inicializa 
+estos elementos, proporcionando una base 
+común para las clases que extienden 
+`Planificacion` y permitiendo la 
+implementación específica de algoritmos 
+de planificación de discos utilizando 
+esta estructura como punto de partida.

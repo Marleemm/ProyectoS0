@@ -1,0 +1,11 @@
+Cuando el usuario selecciona "1", se crea 
+una instancia de la clase `Fcfs`. Luego, 
+se llama al método `setLeer()` para leer 
+los datos de entrada, seguido por la ejecución 
+del algoritmo mediante la llamada a `algoritmoFcfs()`. 
+Posteriormente, se imprime el resultado 
+utilizando el método `verResultado()`. 
+Finalmente, se crea un objeto `Resultados` 
+con la etiqueta "FCFS" y el promedio calculado 
+por el algoritmo, y este objeto se agrega a 
+una lista de resultados llamada `resultados`. 

@@ -1,0 +1,9 @@
+El método `eliminarDisco` en la aplicación JavaFX cumple la función de reiniciar o eliminar 
+el objeto que representa un disco (`disk`). Primero, asigna `null` al objeto del disco, 
+efectivamente eliminándolo. Luego, restaura los campos de entrada para el nombre y tamaño 
+de archivos, así como los campos relacionados con el tamaño del disco y del bloque del disco,
+ permitiendo que el usuario ingrese nuevos datos. Además, gestiona la interfaz gráfica al 
+desactivar ciertos elementos y activar otros, indicando un estado inicial después de la 
+eliminación o reinicio del disco. También oculta áreas específicas de la interfaz relacionadas
+ con asignaciones de bloques y vuelve a habilitar las opciones de asignación de bloques, 
+proporcionando así un entorno limpio para nuevas operaciones en la aplicación.

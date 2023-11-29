@@ -1,0 +1,22 @@
+Este método, se encarga de asignar 
+bloques contiguos en el disco para 
+un archivo específico (`Archivo a`) 
+a partir de una posición inicial 
+proporcionada (`init`). El método 
+utiliza un bucle `for` para iterar 
+sobre los bloques del disco desde 
+la posición inicial hasta el final. 
+En el proceso, verifica si los 
+bloques consecutivos están libres 
+(su estado es `false`). Si encuentra 
+un conjunto de bloques consecutivos 
+suficientes para almacenar el archivo, 
+actualiza la información del archivo, 
+asigna los bloques y establece sus 
+estados como ocupados. Si no hay 
+suficiente espacio, se elimina el 
+archivo del directorio y se muestra 
+un mensaje de error. Además, se 
+muestran mensajes de notificación 
+mediante la interfaz gráfica de usuario 
+(`JOptionPane`).

@@ -1,0 +1,9 @@
+Este método, asociado a la acción de un botón 
+en la interfaz gráfica, realiza varias acciones. 
+En primer lugar, llama al método `agregarInfo` 
+con el contenido actual del campo de texto 
+`n_pistas`. Luego, habilita el botón y el campo 
+de texto relacionados con el cabezal, permitiendo 
+al usuario interactuar con ellos. Simultáneamente, 
+deshabilita el campo de texto `n_pistas` y el 
+botón asociado, impidiendo modificaciones adicionales. 

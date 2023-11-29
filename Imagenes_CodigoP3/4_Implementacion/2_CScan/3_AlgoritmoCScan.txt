@@ -1,0 +1,10 @@
+El método `AlgoritmoCScan` implementa el algoritmo 
+de planificación de discos denominado "CScan". 
+Primero, agrega la posición actual del cabezal a 
+la cola de discos y la ordena en orden ascendente. 
+Luego, reorganiza la cola para simular el movimiento 
+unidireccional del cabezal en un sentido específico, 
+limitando este movimiento. Calcula las distancias 
+entre pistas consecutivas, almacena estas distancias 
+en la lista `resta`, y calcula el promedio de estas 
+distancias.

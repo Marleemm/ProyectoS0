@@ -1,0 +1,18 @@
+Este método `AlgoritmoSstf()` implementa el 
+algoritmo de planificación de discos SSTF 
+(Shortest Seek Time First). En primer lugar, 
+llama al método `Ordenar()`, que ordena la 
+lista `cola_disco` de acuerdo con las distancias 
+del cabezal a cada elemento de la cola. 
+Luego, calcula la distancia de búsqueda 
+(resta) entre el cabezal y el primer elemento 
+de la cola, así como entre cada par consecutivo 
+de elementos en la cola. La suma de estas 
+distancias se acumula en la variable `suma`. 
+Finalmente, se llama al método `setPromedio()` 
+para calcular y establecer el promedio de la 
+distancia de búsqueda. Este método refleja 
+el comportamiento del algoritmo SSTF, que busca 
+atender las solicitudes de pistas del disco 
+en orden ascendente de distancia al cabezal, 
+minimizando así el tiempo de búsqueda.

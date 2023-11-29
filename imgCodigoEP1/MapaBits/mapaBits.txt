@@ -1,0 +1,3 @@
+Esta clase encapsula la información relacionada con un elemento en un mapa de bits de memoria. 
+Los atributos almacenan la dirección y la representación en bits del estado de la memoria, y 
+los métodos de acceso permiten obtener esta información desde fuera de la clase. 

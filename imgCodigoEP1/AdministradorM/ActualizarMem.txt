@@ -1,0 +1,4 @@
+Este método cambia los valores en el mapa de bits a partir de una posición dada (indice) y actualiza un número 
+específico de bloques (tamanio). Si un bloque estaba ocupado, lo marca como libre (0), y si estaba libre, lo 
+marca como ocupado (1). Este tipo de actualización es común en sistemas operativos y administración de memoria 
+para reflejar los cambios en la ocupación de bloques de memoria.

@@ -1,0 +1,12 @@
+Este método, llamado `infoDirectorio`, 
+se encarga de imprimir información sobre 
+los archivos contenidos en el directorio. 
+La salida impresa incluye detalles como 
+el nombre del archivo, la posición de inicio, 
+el tamaño y la posición final (posiblemente 
+el último bloque asignado) de cada archivo 
+en el directorio. La estructura del bucle 
+`for` indica que se está iterando a través 
+de la lista de archivos (`archivos`) en el 
+directorio, y para cada archivo, se imprime 
+una línea de información formateada.

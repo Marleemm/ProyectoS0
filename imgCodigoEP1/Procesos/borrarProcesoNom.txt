@@ -1,0 +1,3 @@
+Este método elimina un proceso de la lista de procesos según su nombre. Si el proceso a eliminar está 
+al principio de la lista, se actualiza la referencia al primer proceso. Si está en una posición intermedia 
+o al final, se ajustan las referencias para "saltar" el proceso que se desea eliminar.

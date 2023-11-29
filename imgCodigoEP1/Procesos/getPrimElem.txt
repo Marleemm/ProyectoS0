@@ -1,0 +1,2 @@
+Estos métodos permiten a otras partes del código obtener información sobre el estado actual de 
+la lista de procesos, como acceder al primer proceso en la lista y conocer la cantidad de procesos que contiene. 

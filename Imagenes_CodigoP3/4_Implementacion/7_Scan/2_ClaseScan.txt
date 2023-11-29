@@ -1,0 +1,15 @@
+Esta clase Java llamada `Scan` extiende la 
+clase `Planificacion`. En el constructor 
+sin parámetros (`Scan()`), inicializa 
+instancias de las listas `cola_disco`, 
+`resta`, y `Resultados`. En el segundo 
+constructor (`Scan(ArrayList<Integer> cola, 
+int cabezal, int n_pistas)`), la clase 
+utiliza el constructor de la clase base 
+`Planificacion` para inicializar la lista 
+`cola_disco` y otros atributos con los valores 
+proporcionados. Estos constructores sugieren 
+que la clase `Scan` se utiliza para representar 
+y gestionar información relacionada con un 
+algoritmo de planificación de discos específico, 
+en este caso, el algoritmo SCAN.

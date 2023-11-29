@@ -1,0 +1,14 @@
+Esta función, llamada `agregarInfo`, toma un 
+parámetro `dato` que se espera sea una representación 
+en cadena de un número entero. La función 
+intenta convertir esta cadena en un entero y, 
+si tiene éxito, agrega ese entero a un archivo 
+llamado "info.txt". Si ocurre algún error durante 
+el proceso de conversión o escritura en el archivo, 
+se muestra un mensaje de error utilizando la clase 
+`JOptionPane` de Java Swing, indicando que los datos 
+ingresados no son válidos y que se deben utilizar 
+números. En resumen, esta función valida, convierte 
+y agrega un número entero a un archivo, manejando 
+posibles errores y proporcionando retroalimentación 
+al usuario en caso de entrada no válida.

@@ -1,0 +1,10 @@
+Este código en Java define la clase `Resultados` 
+en el paquete `Implementacion`. La clase tiene 
+dos atributos privados, `algoritmo` y `promedio`, 
+que representan el nombre de un algoritmo y el 
+promedio asociado, respectivamente. La clase 
+implementa la interfaz `Comparable<Resultados>`, 
+permitiendo la comparación de instancias basándose 
+en sus promedios. Además, proporciona dos constructores: 
+uno sin parámetros y otro que inicializa los 
+atributos con valores específicos.

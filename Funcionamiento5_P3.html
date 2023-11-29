@@ -1,0 +1,706 @@
+<!Doctype html5>
+<html lang="es">
+
+    <head>
+        <link rel="stylesheet" href="estilos_css/estilo.css">
+        <meta charset="UTF-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Funcionamiento</title>
+        <link rel="stylesheet" href="estilos_css/boton.css">
+
+    </head>
+
+    <body>
+
+        <div class="menuLateral">
+            <a href="index.html">
+                <font SIZE="3" FACE="Book Antiqua" COLOR="WHITE">
+                    <p ALIGN=center><b>I n i c i o</b>
+                    </p>
+                </a>
+    
+                <font SIZE="2" FACE="Book Antiqua" COLOR="WHITE">
+                    <p ALIGN=center><b>Gestión de memoria</b>
+                    </p>
+                <ul>
+                    <li><a href="manualU1.html">Manual de usuario</a></li>
+                    <li><a href="manualTec1.html">Manual tecnico</a></li>
+                    <li><a href="articulo1.html">Articulo</a></li>
+    
+                </ul>
+    
+                <font SIZE="2" FACE="Book Antiqua" COLOR="WHITE">
+                    <p ALIGN=center><b>Sistema de archivos</b>
+                    </p>
+                <ul>
+                    <li><a href="manualU2.html">Manual de usuario</a></li>
+                    <li><a href="manualTec2.html">Manual tecnico</a></li>
+                    <li><a href="articulo2.html">Articulo</a></li>
+                </ul>
+    
+                <font SIZE="2.5" FACE="Book Antiqua" COLOR="WHITE">
+                    <p ALIGN=center><b>Planificador de discos</b>
+                    </p>
+                <ul>
+                    <li><a href="manualU3.html">Manual de usuario</a></li>
+                    <li><a href="manualTec3.html">Manual tecnico</a></li>
+                    <li><a href="articulo3.html">Articulo</a></li>
+                </ul>
+        </div>
+
+                <main>
+
+                    <table BORDER="0" width="850px" align="center">
+                        <tr>
+                            <td>
+                                <center> <font SIZE="6" FACE="Book Antiqua"
+                                        COLOR="1D396C">
+                                        <p><i><b>Funcionamiento de código</b></i></p>
+                                    </font>
+                                </center>
+
+                                <p> <code><b>Main.java</b>
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                        COLOR="BLACK">
+                                        <p ALIGN=justify><b>Clase Main</b>
+                                        </p>
+                                    </font>
+
+                                    <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/1_Main/1_Main.png"
+                                            width="350" height="180">
+                                    </center>
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                        COLOR="BLACK">
+                                        <p ALIGN=justify>El código Java proporcionado en la clase `Main` 
+                                            actúa como un punto de entrada para la aplicación. 
+                                            En el método `main`, se invoca el método `main` 
+                                            de otra clase llamada `App`, transmitiendo 
+                                            cualquier argumento de línea de comandos 
+                                            proporcionado (`args`). Este enfoque sigue la 
+                                            convención común de separar la lógica principal 
+                                            de la aplicación en una clase específica (`App`
+                                             en este caso) y utilizar una clase de entrada 
+                                            (`Main`) para iniciar la ejecución, promoviendo 
+                                            así la modularidad y la claridad en la estructura 
+                                            del código.</p>
+                                    </font>
+
+                                    <p> <code><b>App.java</b>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Librerias</b>
+                                            </p>
+                                        </font>
+    
+                                        <center>
+                                            <img
+                                                SRC="Imagenes_CodigoP3/2_App/1_librerias.png"
+                                                width="350" height="180">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Este código en Java importa las clases necesarias 
+                                                de la biblioteca JavaFX para construir una aplicación 
+                                                de interfaz gráfica de usuario (GUI). La clase 
+                                                principal extiende `Application` y, presumiblemente, 
+                                                implementa el método `start`, donde se cargan 
+                                                elementos de la interfaz desde un archivo FXML 
+                                                mediante la clase `FXMLLoader`, se configura la 
+                                                escena con un nodo raíz (`Parent`), y se muestra 
+                                                la aplicación en una ventana (`Stage`). También 
+                                                importa `Objects` para operaciones de objeto y 
+                                                `File` para manipulación de archivos. Aunque el 
+                                                código en sí mismo no realiza acciones específicas, 
+                                                sirve como base para el desarrollo de una aplicación 
+                                                JavaFX que involucra la carga de interfaz gráfica 
+                                                desde un archivo FXML y la manipulación de archivos.</p>
+                                        </font>
+
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Clase App</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/2_App/2_ClaseApp.png"
+                                            width="550" height="250">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>En este método, se 
+                                            carga la interfaz de usuario desde un archivo 
+                                            FXML, se configuran propiedades de la ventana, 
+                                            se establece un controlador para el evento de 
+                                            cierre que ejecuta el método `eliminarArchivo()`, 
+                                            y se muestra la aplicación con un título específico. 
+                                            Además, se fija un tamaño mínimo y se muestra 
+                                            la ventana del escenario con las dimensiones 
+                                            iniciales y propiedades configuradas, formando 
+                                            así la estructura inicial de la interfaz gráfica 
+                                            para un simulador de planificación de discos.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo eliminarArchivo</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/2_App/3_eliminarArchivo.png"
+                                            width="550" height="250">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>El 
+                                                método `eliminarArchivo()` elimina el archivo 
+                                                "info.txt" si existe, imprimiendo mensajes en 
+                                                la consola según el resultado de la operación. 
+                                                La función `main` inicia la aplicación JavaFX 
+                                                invocando `launch(args)`, que, a su vez, ejecuta 
+                                                el método `start` de la clase `App` para configurar 
+                                                la interfaz gráfica. En conjunto, el código 
+                                                proporciona una estructura básica para una 
+                                                aplicación que carga una interfaz gráfica y 
+                                                realiza operaciones de archivo, como la eliminación 
+                                                del archivo "info.txt".</p>
+                                        </font>
+                                    </font>
+
+                                    <p> <code><b>Controladores.java</b>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Librerias</b>
+                                            </p>
+                                        </font>
+    
+                                        <center>
+                                            <img
+                                                SRC="Imagenes_CodigoP3/3_Controladores/1_lbrerias.png"
+                                                width="350" height="180">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Este código Java define un paquete llamado 
+                                                `Controladores` y posteriormente importa 
+                                                diversas clases y paquetes relacionados 
+                                                con la programación de interfaces gráficas 
+                                                de usuario (GUI) utilizando JavaFX. Entre 
+                                                las clases importadas se encuentran aquellas 
+                                                relacionadas con la creación de componentes 
+                                                de interfaz gráfica, como botones, tablas 
+                                                y celdas, así como clases para manejar eventos 
+                                                de usuario, leer y escribir archivos, y 
+                                                trabajar con listas observables. Además, el 
+                                                código incluye la definición de una clase que 
+                                                implementa la interfaz `Initializable`, sugiriendo 
+                                                que se utilizará para inicializar controladores 
+                                                de interfaz de usuario.</p>
+                                        </font>
+
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Clase MainControlador</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/3_Controladores/2_MainControlador.png"
+                                            width="550" height="550">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>La clase `MainControlador` implementa la interfaz 
+                                                `Initializable` para la inicialización de controladores 
+                                                en una aplicación JavaFX. Los campos anotados con 
+                                                `@FXML` están vinculados a elementos de la interfaz 
+                                                gráfica, como áreas de texto, campos de texto, 
+                                                botones y una tabla. La clase también contiene 
+                                                listas para almacenar resultados y números enteros. 
+                                                Se espera que esta clase gestione la lógica y la 
+                                                interacción de la interfaz gráfica relacionada con 
+                                                la simulación o aplicación, incluyendo la manipulación 
+                                                de la cola, información del cabezal y pistas, así como 
+                                                la presentación de resultados en una tabla y visualización 
+                                                en un área de desplazamiento.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo Initialize</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/3_Controladores/3_Initialize.png"
+                                            width="550" height="250">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Este método `initialize` implementa la interfaz 
+                                                `Initializable` y se ejecuta al inicializar el 
+                                                controlador. Su función principal es configurar 
+                                                la tabla de resultados en la interfaz gráfica. 
+                                                Utiliza `setCellValueFactory` para asociar las 
+                                                propiedades de las columnas de la tabla (`metodo_resultado` 
+                                                y `longitud_resultado`) con los métodos 
+                                                `getAlgoritmo()` y `getPromedio()` de la clase 
+                                                `Resultados`, respectivamente. Esta configuración 
+                                                establece cómo se deben mostrar los datos de la 
+                                                lista de resultados en la interfaz gráfica, 
+                                                asegurando que la tabla se llene correctamente 
+                                                con la información correspondiente.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo Cabezal_btn_Action</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/3_Controladores/4_Cabezal_btn_Action.png"
+                                            width="550" height="250">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Este método, vinculado a la acción de un botón 
+                                                en la interfaz gráfica, realiza varias acciones 
+                                                al ser activado. Primero, llama a un método 
+                                                denominado `agregarInfo` pasándole el texto 
+                                                actual del campo de texto `cabezal`. Posteriormente, 
+                                                habilita el campo de texto `cola_elemento` y 
+                                                su botón asociado, al tiempo que deshabilita 
+                                                el campo `cabezal` y el botón `cabezal_btn`. 
+                                                En conjunto, estas acciones sugieren que el 
+                                                método está diseñado para procesar la entrada 
+                                                del usuario desde el campo `cabezal`, llevar a 
+                                                cabo alguna operación relacionada con la información 
+                                                proporcionada, y ajustar el estado de los elementos 
+                                                de la interfaz para guiar la interacción del usuario 
+                                                en un flujo específico de la aplicación.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo cola_elemento_btn_Action</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/3_Controladores/5_cola_elemento_btn_Action.png"
+                                            width="550" height="450">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Este método, vinculado a la acción de un botón 
+                                                en la interfaz gráfica, realiza diversas acciones. 
+                                                En primer lugar, llama al método `agregarInfo` 
+                                                con el contenido actual del campo de texto 
+                                                `cola_elemento`. Luego, lee el contenido del 
+                                                archivo "info.txt", excluyendo las dos primeras 
+                                                líneas, y construye una representación de cola 
+                                                utilizando un `StringBuilder` llamado `cola`. 
+                                                Posteriormente, borra el contenido del campo 
+                                                `cola_elemento`, actualiza el área de texto 
+                                                `cola_screen` con la nueva información de la 
+                                                cola y cierra el lector de archivos. En conjunto, 
+                                                este método procesa la entrada del usuario, 
+                                                manipula información de un archivo y actualiza 
+                                                la interfaz gráfica con la representación actualizada 
+                                                de una cola.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo n_pistas_btn_Action</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/3_Controladores/6_n_pistas_btn_Action.png"
+                                            width="550" height="250">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Este método, asociado a la acción de un botón 
+                                                en la interfaz gráfica, realiza varias acciones. 
+                                                En primer lugar, llama al método `agregarInfo` 
+                                                con el contenido actual del campo de texto 
+                                                `n_pistas`. Luego, habilita el botón y el campo 
+                                                de texto relacionados con el cabezal, permitiendo 
+                                                al usuario interactuar con ellos. Simultáneamente, 
+                                                deshabilita el campo de texto `n_pistas` y el 
+                                                botón asociado, impidiendo modificaciones adicionales. </p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo agregarInfo</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/3_Controladores/7_agregarInfo.png"
+                                            width="550" height="200">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Esta función, llamada `agregarInfo`, toma un 
+                                                parámetro `dato` que se espera sea una representación 
+                                                en cadena de un número entero. La función 
+                                                intenta convertir esta cadena en un entero y, 
+                                                si tiene éxito, agrega ese entero a un archivo 
+                                                llamado "info.txt". Si ocurre algún error durante 
+                                                el proceso de conversión o escritura en el archivo, 
+                                                se muestra un mensaje de error utilizando la clase 
+                                                `JOptionPane` de Java Swing, indicando que los datos 
+                                                ingresados no son válidos y que se deben utilizar 
+                                                números. En resumen, esta función valida, convierte 
+                                                y agrega un número entero a un archivo, manejando 
+                                                posibles errores y proporcionando retroalimentación 
+                                                al usuario en caso de entrada no válida.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo Planificacion_C_LOOK</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/3_Controladores/8_Planificacion_C_LOOK.png"
+                                            width="550" height="250">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Este método, vinculado a la acción de un 
+                                                botón o elemento de la interfaz gráfica 
+                                                llamado "Planificacion_C_LOOK", implementa 
+                                                la planificación de discos utilizando el 
+                                                algoritmo CLook. Inicia limpiando la lista 
+                                                auxiliar, crea una instancia de la clase 
+                                                CLook, configura su lectura, ejecuta el 
+                                                algoritmo, muestra los resultados, agrega 
+                                                la cola del disco a la lista auxiliar, 
+                                                verifica si la operación "CLOOK" ya ha 
+                                                sido registrada en los resultados, y, si 
+                                                no, añade un nuevo resultado a la lista. 
+                                                Luego, actualiza la tabla de resultados en 
+                                                la interfaz y realiza alguna operación para 
+                                                dibujar el estado del disco. En conjunto, 
+                                                el método gestiona la ejecución del algoritmo, 
+                                                la actualización de resultados y la visualización 
+                                                del estado del disco en la interfaz gráfica.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo Planificacion_C_SCAN</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/3_Controladores/9_Planificacion_C_SCAN.png"
+                                            width="550" height="250">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Este método, asociado a la acción de un botón 
+                                                o elemento de la interfaz gráfica denominado 
+                                                "Planificacion_C_SCAN", implementa la planificación 
+                                                de discos utilizando el algoritmo CScan. Comienza 
+                                                limpiando la lista auxiliar, crea una instancia 
+                                                de la clase CScan, configura su lectura, ejecuta 
+                                                el algoritmo, muestra los resultados, agrega la 
+                                                cola del disco a la lista auxiliar, verifica si 
+                                                la operación "CSCAN" ya ha sido registrada en los 
+                                                resultados y, si no, añade un nuevo resultado a la 
+                                                lista. Luego, actualiza la tabla de resultados en 
+                                                la interfaz y realiza alguna operación para dibujar 
+                                                el estado del disco. En conjunto, el método gestiona 
+                                                la ejecución del algoritmo CScan, la actualización 
+                                                de resultados y la visualización del estado del disco 
+                                                en la interfaz gráfica.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo Planificacion_FCFS</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/3_Controladores/10_Planificacion_FCFS.png"
+                                            width="550" height="250">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Este método, asociado a la acción de un botón 
+                                                o elemento de la interfaz gráfica denominado 
+                                                "Planificacion_FCFS", implementa la planificación 
+                                                de discos utilizando el algoritmo First-Come, 
+                                                First-Served (FCFS). Inicia limpiando la lista 
+                                                auxiliar, crea una instancia de la clase FCFS, 
+                                                configura su lectura, ejecuta el algoritmo, 
+                                                muestra los resultados, agrega la cola del disco 
+                                                a la lista auxiliar, verifica si la operación 
+                                                "FCFS" ya ha sido registrada en los resultados 
+                                                y, si no, añade un nuevo resultado a la lista. 
+                                                Luego, actualiza la tabla de resultados en la 
+                                                interfaz y realiza alguna operación para dibujar 
+                                                el estado del disco. En conjunto, el método 
+                                                gestiona la ejecución del algoritmo FCFS, la 
+                                                actualización de resultados y la visualización 
+                                                del estado del disco en la interfaz gráfica.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo Planificacion_LOOK</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/3_Controladores/11_Planificaion_LOOK.png"
+                                            width="550" height="250">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Este método, asociado a la acción de un botón 
+                                                o elemento de la interfaz gráfica llamado 
+                                                "Planificacion_LOOK", implementa la planificación 
+                                                de discos utilizando el algoritmo Look. Comienza 
+                                                limpiando la lista auxiliar, crea una instancia 
+                                                de la clase Look, configura su lectura, ejecuta 
+                                                el algoritmo, muestra los resultados, agrega la 
+                                                cola del disco a la lista auxiliar, verifica si 
+                                                la operación "LOOK" ya ha sido registrada en los 
+                                                resultados y, si no, añade un nuevo resultado a 
+                                                la lista. Luego, actualiza la tabla de resultados 
+                                                en la interfaz y realiza alguna operación para 
+                                                dibujar el estado del disco. En conjunto, el 
+                                                método gestiona la ejecución del algoritmo Look, 
+                                                la actualización de resultados y la visualización 
+                                                del estado del disco en la interfaz gráfica.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo Planificacion_SCAN</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/3_Controladores/12_Planificacion_SCAN.png"
+                                            width="550" height="250">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Este método, asociado a la acción de un botón 
+                                                o elemento de la interfaz gráfica llamado 
+                                                "Planificacion_SCAN", implementa la planificación 
+                                                de discos utilizando el algoritmo Scan. Comienza 
+                                                limpiando la lista auxiliar, crea una instancia 
+                                                de la clase Scan, configura su lectura, ejecuta 
+                                                el algoritmo, muestra los resultados, agrega la 
+                                                cola del disco a la lista auxiliar, verifica si 
+                                                la operación "SCAN" ya ha sido registrada en los 
+                                                resultados y, si no, añade un nuevo resultado a 
+                                                la lista. Luego, actualiza la tabla de resultados 
+                                                en la interfaz y realiza alguna operación para 
+                                                dibujar el estado del disco. En conjunto, el método 
+                                                gestiona la ejecución del algoritmo Scan, la 
+                                                actualización de resultados y la visualización 
+                                                del estado del disco en la interfaz gráfica.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo Planificacion_SSTF</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/3_Controladores/13_Planificacion_SSTF.png"
+                                            width="550" height="250">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Este método, vinculado a la acción de un botón 
+                                                o elemento de la interfaz gráfica llamado 
+                                                "Planificacion_SSTF", implementa la planificación 
+                                                de discos utilizando el algoritmo Shortest Seek 
+                                                Time First (SSTF). Comienza limpiando la lista 
+                                                auxiliar, crea una instancia de la clase SSTF, 
+                                                configura su lectura, ejecuta el algoritmo, 
+                                                muestra los resultados, agrega la cola del disco 
+                                                a la lista auxiliar, verifica si la operación 
+                                                "SSTF" ya ha sido registrada en los resultados 
+                                                y, si no, añade un nuevo resultado a la lista. 
+                                                Luego, actualiza la tabla de resultados en la 
+                                                interfaz y realiza alguna operación para dibujar 
+                                                el estado del disco. En conjunto, el método 
+                                                gestiona la ejecución del algoritmo SSTF, la 
+                                                actualización de resultados y la visualización 
+                                                del estado del disco en la interfaz gráfica.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo setTablaResultados</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/3_Controladores/14_SetTablaResultados.png"
+                                            width="550" height="250">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Esta función, llamada `SetTablaResultados`, se 
+                                                encarga de actualizar la tabla de resultados en 
+                                                la interfaz gráfica. Primero, verifica si la 
+                                                lista de resultados (`resultados`) no está vacía. 
+                                                En caso afirmativo, ordena la lista de resultados, 
+                                                limpia los elementos existentes en la tabla 
+                                                (`resultados_tabla.getItems().clear()`), refresca 
+                                                la tabla, crea una nueva lista observable (`lista`) 
+                                                que contiene todos los resultados ordenados, 
+                                                establece esta lista como los nuevos elementos de 
+                                                la tabla, y finalmente, refresca nuevamente la tabla 
+                                                para reflejar los cambios. Si la lista de resultados 
+                                                está vacía, imprime en la consola el mensaje "No 
+                                                hay datos".</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo Verificar Operacion</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/3_Controladores/15_VerificarOperacion.png"
+                                            width="550" height="250">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Esta función, denominada `VerificarOperacion`, 
+                                                tiene como objetivo verificar si una operación 
+                                                con un determinado método ya ha sido registrada 
+                                                en la lista de resultados (`resultados`). Recibe 
+                                                como parámetro un nombre de método y realiza un 
+                                                bucle a través de los elementos en la lista de 
+                                                resultados. Si encuentra un resultado con el mismo 
+                                                nombre de método, devuelve `true`, indicando que 
+                                                la operación ya ha sido registrada. En caso contrario, 
+                                                si no encuentra ninguna coincidencia, devuelve 
+                                                `false`, indicando que la operación aún no ha sido 
+                                                registrada.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo Dibujar Disco</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP3/3_Controladores/16_DibujarDisco.png"
+                                            width="550" height="750">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>La función `DibujarDisco` se encarga de generar 
+                                                una representación visual del estado del disco 
+                                                en la interfaz gráfica. Primero, limpia cualquier 
+                                                contenido existente en el área de visualización. 
+                                                Luego, lee información del archivo "info.txt" 
+                                                sobre el número de pistas y la ubicación de 
+                                                elementos en el disco. Utiliza contenedores 
+                                                (`VBox` y `HBox`) para organizar las pistas, 
+                                                resaltando en rojo aquellas ocupadas, mostrando 
+                                                una representación visual del disco en colores 
+                                                alternos. Además, resalta en verde las pistas 
+                                                visitadas, utilizando la lista `aux`. La función 
+                                                finaliza ajustando las propiedades de visualización 
+                                                de la interfaz. En conjunto, proporciona una 
+                                                visualización detallada y dinámica del estado 
+                                                del disco.</p>
+                                        </font>
+                                    </font>
+
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <a href="manualU3.html">
+                                                    <input type="button"
+                                                        value="Atras" />
+                                                </a>
+                                            </td>
+                                            <td>
+                                            <a href="Funcionamiento6_P3.html">
+                                                <input type="button" value="Siguiente" />
+                                            </a>
+                                        </td>
+
+                                    </tr>
+                                </table>
+
+                            </tr>
+                        </table>
+
+                        <br>
+                        <br>
+                        <address>
+                            <table BORDER="0" width="850px"
+                                align="center" BGCOLOR="1D396C">
+                                <tr>
+                                    <td>
+                                        <font SIZE="2"
+                                            FACE="Book Antiqua"
+                                            COLOR="WHITE">
+                                            <p ALIGN=justify>
+                                                <b>Colaboradores:</b><br><br>
+                                                -Hugo Jesus Guevara
+                                                Cocolotl 202067905<br>
+                                                -Jesus Eduardo Hernandez
+                                                Bravo 202039944<br>
+                                                -Marlem Martínez
+                                                Castillo 202045355<br>
+                                                -Miryam Salazar Vega
+                                                202075220
+                                            </p>
+                                        </font>
+                                    </td>
+
+                                </tr>
+                            </table>
+
+                        </address>
+                    </main>
+
+                </body>
+
+            </html>

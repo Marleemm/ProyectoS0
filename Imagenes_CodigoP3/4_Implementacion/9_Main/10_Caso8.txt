@@ -1,0 +1,9 @@
+Cuando el usuario selecciona "8", se 
+imprime un mensaje indicando que el 
+programa está saliendo y se rompe el 
+bucle, lo que lleva a la conclusión 
+del programa. Si el usuario ingresa una 
+opción que no coincide con ninguna de 
+las opciones del menú, se imprime un 
+mensaje indicando que se debe ingresar 
+una opción válida.

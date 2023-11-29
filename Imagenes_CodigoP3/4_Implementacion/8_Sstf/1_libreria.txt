@@ -1,0 +1,11 @@
+Este fragmento de código en Java simplemente 
+importa la clase `ArrayList` del paquete 
+`java.util`. La clase `ArrayList` es una 
+implementación de la interfaz `List` que 
+utiliza un arreglo dinámico para almacenar 
+elementos y proporciona métodos para manipular 
+esa lista, como agregar, eliminar y acceder 
+a elementos. La importación de `ArrayList` 
+indica que el código puede hacer uso de 
+listas dinámicas para almacenar y manipular 
+conjuntos de elementos de manera eficiente.

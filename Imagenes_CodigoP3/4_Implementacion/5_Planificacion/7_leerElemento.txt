@@ -1,0 +1,9 @@
+Este método tiene como función agregar un 
+elemento entero `i` a la lista `cola_disco` 
+de la instancia de la clase. En otras palabras, 
+este método se utiliza para incorporar nuevos 
+elementos a la cola de discos. Cada vez que 
+se invoca este método con un parámetro entero, 
+ese valor se añade a la lista `cola_disco`, 
+lo que permite la construcción dinámica de la 
+cola de discos durante la ejecución del programa.

@@ -1,0 +1,15 @@
+Este código en Java importa las clases necesarias 
+de la biblioteca JavaFX para construir una aplicación 
+de interfaz gráfica de usuario (GUI). La clase 
+principal extiende `Application` y, presumiblemente, 
+implementa el método `start`, donde se cargan 
+elementos de la interfaz desde un archivo FXML 
+mediante la clase `FXMLLoader`, se configura la 
+escena con un nodo raíz (`Parent`), y se muestra 
+la aplicación en una ventana (`Stage`). También 
+importa `Objects` para operaciones de objeto y 
+`File` para manipulación de archivos. Aunque el 
+código en sí mismo no realiza acciones específicas, 
+sirve como base para el desarrollo de una aplicación 
+JavaFX que involucra la carga de interfaz gráfica 
+desde un archivo FXML y la manipulación de archivos.

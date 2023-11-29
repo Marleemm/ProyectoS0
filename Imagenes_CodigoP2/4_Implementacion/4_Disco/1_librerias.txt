@@ -1,0 +1,15 @@
+Esta parte de código pertenece a 
+un archivo fuente ubicado en el 
+paquete `Implementacion`. Importa 
+clases relacionadas con la interfaz 
+gráfica de usuario mediante 
+`javax.swing.*`, y clases para la 
+lectura de entrada de datos desde 
+la entrada estándar a través de 
+`java.io.BufferedReader` y 
+`java.io.InputStreamReader`. 
+Además, incluye la clase `ArrayList` 
+del paquete `java.util`, indicando 
+la posible utilización de listas 
+dinámicas en el código para almacenar 
+y manipular conjuntos de datos. 

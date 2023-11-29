@@ -1,0 +1,10 @@
+Estos métodos pertenecen a la clase Java, 
+posiblemente parte de la clase `Bloque`. 
+El método `getArchivo()` funciona como un 
+getter, devolviendo la referencia al objeto 
+`Archivo` asociado con el bloque, mientras 
+que `setArchivo(Archivo archivo)` actúa 
+como un setter, permitiendo cambiar la 
+referencia al objeto `Archivo` asociado 
+al bloque al proporcionar un nuevo objeto 
+`Archivo` como parámetro.

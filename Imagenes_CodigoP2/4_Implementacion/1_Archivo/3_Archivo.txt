@@ -1,0 +1,15 @@
+En este metodo, los constructores en la 
+clase `Archivo` facilitan la creación de 
+instancias de archivos de dos maneras. 
+El primer constructor, sin argumentos, 
+inicializa la lista de bloques asignados 
+como una nueva instancia de `ArrayList<Integer>`. 
+El segundo constructor, que toma un nombre, 
+una posición de inicio y un tamaño como 
+argumentos, utiliza métodos de la clase 
+(como `setNombre`, `setInicio`, y `setTamanio`, 
+que no están proporcionados en el código 
+compartido) para establecer estos valores 
+en la instancia de archivo creada, ofreciendo 
+flexibilidad en la inicialización de objetos 
+`Archivo`.

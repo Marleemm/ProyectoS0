@@ -1,0 +1,13 @@
+Este código en Java define el método `start` 
+de la clase `App` que extiende `Application` 
+en una aplicación JavaFX. En este método, se 
+carga la interfaz de usuario desde un archivo 
+FXML, se configuran propiedades de la ventana, 
+se establece un controlador para el evento de 
+cierre que ejecuta el método `eliminarArchivo()`, 
+y se muestra la aplicación con un título específico. 
+Además, se fija un tamaño mínimo y se muestra 
+la ventana del escenario con las dimensiones 
+iniciales y propiedades configuradas, formando 
+así la estructura inicial de la interfaz gráfica 
+para un simulador de planificación de discos.

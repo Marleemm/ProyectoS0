@@ -1,0 +1,14 @@
+/* estilos.css */
+
+/* Estilos para el botón */
+a {
+    text-decoration: none; /* Para quitar el subrayado del enlace */
+}
+
+input[type="button"] {
+    background-color: #1D396C; /* Cambia el color de fondo a #1D396C */
+    color: white; /* Cambia el color del texto a blanco */
+    padding: 10px 20px; /* Ajusta el relleno del botón según tus preferencias */
+    border: none; /* Quita el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}

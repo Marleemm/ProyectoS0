@@ -1,0 +1,2 @@
+Este método busca procesos en la lista que tengan un nombre específico, imprime sus índices y luego los 
+elimina de la lista. Se utiliza un arreglo para almacenar temporalmente los índices de los procesos duplicados antes de eliminarlos.

@@ -1,0 +1,6 @@
+La clase `ControlMenu` en este código parece ser un controlador de interfaz gráfica que 
+interactúa con elementos de la interfaz de usuario (UI) en una aplicación JavaFX. 
+
+La clase `ControlMenu` controla la lógica y las interacciones de la interfaz gráfica de 
+una aplicación que involucra operaciones en discos y archivos. Los elementos de la interfaz 
+gráfica están anotados con @FXML, indicando que serán inyectados por el cargador FXML durante la construcción de la interfaz.

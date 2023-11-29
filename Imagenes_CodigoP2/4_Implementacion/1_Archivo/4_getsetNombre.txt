@@ -1,0 +1,17 @@
+Estos métodos que se encuentran dentro 
+de la clase 'Achivo' siguen el patrón 
+getter-setter para manipular el atributo 
+privado `nombre`. El método `getNombre()`
+ devuelve el valor actual de `nombre`, 
+permitiendo acceder a esa información 
+desde fuera de la clase. Por otro lado, 
+el método `setNombre(String nombre)` 
+permite cambiar el valor de `nombre` al 
+proporcionar un nuevo valor como parámetro, 
+facilitando la modificación controlada 
+de este atributo desde otras partes del 
+programa. Este enfoque respeta el principio 
+de encapsulamiento en la programación 
+orientada a objetos, al restringir el 
+acceso directo a los atributos y proporcionar 
+métodos específicos para interactuar con ellos.

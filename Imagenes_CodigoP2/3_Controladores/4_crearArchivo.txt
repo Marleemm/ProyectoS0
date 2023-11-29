@@ -1,0 +1,11 @@
+El método `CrearArchivo` en este código JavaFX es un controlador de eventos asociado a la 
+acción de crear un archivo en la interfaz gráfica. En primer lugar, instancia un nuevo 
+objeto de la clase `Archivo` y verifica si el campo que contiene el nombre del archivo no 
+está vacío. Si el nombre es proporcionado, se configura en el objeto de archivo recién creado. 
+A continuación, intenta convertir el texto ingresado en el campo de tamaño del archivo a un 
+valor numérico. Si la conversión es exitosa, el archivo se agrega al disco y se realizan 
+ajustes en la interfaz, como la desactivación de ciertos elementos y la activación de otros 
+relacionados con la asignación de bloques. Sin embargo, si hay algún problema durante la 
+conversión o cualquier otra excepción, se muestra un mensaje de error indicando que los 
+datos ingresados no son válidos. En el caso de que el campo del nombre del archivo esté 
+vacío desde el principio, también se muestra un mensaje de error. 

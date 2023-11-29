@@ -1,0 +1,14 @@
+Estos métodos ofrecen una interfaz 
+para acceder y modificar la referencia 
+al objeto `Directorio` asociado al 
+disco. El método `getDir()` funciona 
+como un getter, devolviendo la referencia 
+actual al directorio, mientras que 
+`setDir(Directorio dir)` actúa como 
+un setter, permitiendo cambiar esta 
+referencia al proporcionar un nuevo 
+objeto `Directorio` como parámetro. 
+Además, el método `agregarDir(Archivo a)` 
+utiliza el método `agregarArchivo` del 
+directorio para agregar un archivo 
+específico al mismo.

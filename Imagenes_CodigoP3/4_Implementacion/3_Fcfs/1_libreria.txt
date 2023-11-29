@@ -1,0 +1,8 @@
+Este fragmento de código Java establece un 
+paquete denominado `Implementacion`, que 
+se utiliza para organizar clases relacionadas 
+y evitar conflictos de nombres. Además, se 
+importa la clase `ArrayList` del paquete 
+`java.util`, que proporciona una implementación 
+de lista dinámica para almacenar elementos 
+de manera flexible.

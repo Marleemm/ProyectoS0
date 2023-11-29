@@ -1,0 +1,2 @@
+El código establece un paquete llamado Implementacion y realiza una importación específica 
+de la clase ArrayList del paquete java.util

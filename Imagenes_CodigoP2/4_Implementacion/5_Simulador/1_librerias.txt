@@ -1,0 +1,15 @@
+Este fragmento de código importa 
+algunas clases del paquete `java.io` 
+para manejar entrada de datos desde 
+la consola. Importa las clases 
+`BufferedReader`, `IOException`, y 
+`InputStreamReader`. El `BufferedReader` 
+se usa para leer texto desde una 
+secuencia de entrada (como la entrada 
+estándar), mientras que `IOException` 
+maneja las excepciones asociadas con 
+la entrada/salida. El `InputStreamReader` 
+se usa para leer bytes y convertirlos 
+a caracteres utilizando una codificación 
+específica o la predeterminada del 
+sistema.

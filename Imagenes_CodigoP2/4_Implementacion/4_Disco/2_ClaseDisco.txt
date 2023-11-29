@@ -1,0 +1,15 @@
+La clase `Disco` representa un disco 
+en un sistema de archivos. Tiene 
+atributos que almacenan el tamaño 
+total del disco (`tamanio`), el 
+tamaño de cada bloque (`tamanio_bloque`), 
+una lista de bloques (`n_bloques`), 
+que probablemente son parte de la 
+estructura de almacenamiento del disco, 
+y una referencia a un objeto de la clase 
+`Directorio` (`dir`), que podría contener 
+información sobre los archivos y directorios 
+presentes en el disco. En conjunto, la clase 
+`Disco` proporciona una estructura para modelar 
+y gestionar un disco en un entorno de 
+sistema de archivos.

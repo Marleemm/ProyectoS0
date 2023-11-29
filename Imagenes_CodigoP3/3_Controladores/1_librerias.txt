@@ -1,0 +1,15 @@
+Este código Java define un paquete llamado 
+`Controladores` y posteriormente importa 
+diversas clases y paquetes relacionados 
+con la programación de interfaces gráficas 
+de usuario (GUI) utilizando JavaFX. Entre 
+las clases importadas se encuentran aquellas 
+relacionadas con la creación de componentes 
+de interfaz gráfica, como botones, tablas 
+y celdas, así como clases para manejar eventos 
+de usuario, leer y escribir archivos, y 
+trabajar con listas observables. Además, el 
+código incluye la definición de una clase que 
+implementa la interfaz `Initializable`, sugiriendo 
+que se utilizará para inicializar controladores 
+de interfaz de usuario.

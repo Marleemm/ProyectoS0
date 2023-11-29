@@ -1,0 +1,15 @@
+Este programa implementa un simulador 
+de sistema de archivos básico. 
+Inicia solicitando al usuario el 
+tamaño y tamaño de bloque del disco, 
+inicializa el disco con estos valores 
+y simula la creación de un archivo 
+llamado "carta.pdf" con un tamaño de 
+6 bloques. Utiliza el método de asignación 
+vinculada para asignar bloques al archivo, 
+solicita al usuario que ingrese bloques 
+específicos. Finalmente, muestra el estado 
+actual del disco y la información del 
+directorio, proporcionando una representación 
+básica de las operaciones de manejo de 
+archivos en un sistema de archivos simulado. 

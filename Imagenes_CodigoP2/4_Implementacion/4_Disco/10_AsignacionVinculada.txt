@@ -1,0 +1,19 @@
+Este método, se encarga de asignar 
+bloques vinculados en el disco para 
+un archivo específico (`Archivo a`). 
+Comienza verificando si hay suficiente 
+espacio en bloques para el archivo 
+mediante el método `espacioBloques`. 
+Luego, utiliza un bucle para solicitar 
+al usuario que ingrese bloques específicos 
+para el archivo. Cada bloque ingresado 
+se verifica para asegurarse de que esté 
+libre antes de asignarlo al archivo. 
+Si se completa la asignación de bloques, 
+se actualiza la información del archivo 
+y se establece su inicio. En caso de 
+que no haya suficiente espacio, se elimina
+ el archivo del directorio y se muestra 
+un mensaje indicando la falta de espacio 
+en disco. Además, maneja posibles excepciones 
+durante la entrada de datos.

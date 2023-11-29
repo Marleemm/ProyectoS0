@@ -1,0 +1,14 @@
+El método `algoritmoFcfs` implementa el 
+algoritmo de planificación de discos 
+conocido como "First-Come, First-Served" 
+(FCFS). Calcula las distancias entre el 
+cabezal y los elementos consecutivos en 
+la cola de discos, acumula estas distancias 
+en una variable suma y luego calcula el 
+promedio de estas distancias mediante el 
+método `setPromedio()`. Este enfoque FCFS 
+evalúa la eficiencia de la planificación de 
+discos considerando el orden de llegada de 
+las solicitudes, proporcionando una medida 
+del rendimiento del sistema en términos de 
+movimientos del cabezal de lectura/escritura.

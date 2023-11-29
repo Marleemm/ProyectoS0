@@ -1,0 +1,11 @@
+Este método, busca un archivo en 
+el directorio del disco según su 
+nombre. Itera sobre la lista de 
+archivos en el directorio 
+(`dir.getArchivos()`) y compara 
+el nombre de cada archivo con el 
+nombre proporcionado como parámetro. 
+Si encuentra un archivo con el 
+nombre correspondiente, devuelve 
+ese archivo. Si no encuentra ninguna 
+coincidencia, devuelve `null`.

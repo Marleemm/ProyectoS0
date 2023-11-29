@@ -1,0 +1,4 @@
+Este método recorre cada dígito de una cadena binaria de derecha a izquierda, interpreta cada dígito como 0 o 1, 
+multiplica el dígito por 2 elevado a la potencia correspondiente a su posición en la cadena, y acumula estos 
+valores para obtener el equivalente decimal de la cadena binaria. El resultado final es el valor decimal 
+equivalente a la cadena binaria proporcionada como entrada.

@@ -1,0 +1,9 @@
+La clase Java llamada Archivo define 
+atributos para representar la información 
+básica de un archivo en un sistema de 
+archivos.Esta diseñada para representar 
+información básica sobre archivos en un 
+sistema de archivos. Los campos proporcionan 
+detalles sobre el nombre, la posición 
+de inicio, el tamaño y los bloques asignados 
+de un archivo.

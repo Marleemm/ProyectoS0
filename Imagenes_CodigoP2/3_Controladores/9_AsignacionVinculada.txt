@@ -1,0 +1,11 @@
+El método `AsignacionVinculadaGUI` en la aplicación JavaFX se encarga de gestionar la interfaz
+ gráfica para la asignación de bloques de manera vinculada a un archivo. Primero, inicializa 
+un panel y establece su tamaño mínimo. Luego, verifica la existencia de archivos en el disco 
+y, si están presentes, genera dinámicamente campos de texto en el panel, representando bloques
+ en la asignación vinculada. Cada campo tiene propiedades específicas según su posición, como
+ la capacidad de edición basada en la paridad del índice. Además, se crea un botón y se añaden
+ acciones, como la actualización de un campo de texto en respuesta a cambios en otro. El botón
+ también imprime "Hola mundo" en la consola cuando se presiona. La interfaz se adapta visualmente
+ al desactivar y ocultar botones relacionados con otras asignaciones y mostrar el área de 
+asignación vinculada. En caso de que no haya archivos en el disco, se presenta un mensaje de 
+error indicando que es necesario agregar archivos para iniciar la simulación.

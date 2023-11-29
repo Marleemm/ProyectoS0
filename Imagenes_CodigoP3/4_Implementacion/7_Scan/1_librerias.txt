@@ -1,0 +1,10 @@
+El código importa las clases `ArrayList` y 
+`Collections` del paquete `java.util` en Java. 
+`ArrayList` es una estructura de datos que 
+implementa listas dinámicas, permitiendo 
+cambios de tamaño dinámicos. `Collections` 
+proporciona métodos de utilidad para operaciones 
+comunes en colecciones, como ordenar elementos. 
+Estas importaciones sugieren que el código 
+puede hacer uso de listas dinámicas y funciones 
+de manipulación de colecciones.

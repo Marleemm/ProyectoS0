@@ -1,0 +1,14 @@
+Estos métodos facilitan el acceso y la 
+modificación de los atributos privados 
+de la clase. El método `getPromedio` 
+devuelve el valor del atributo `promedio`, 
+que representa el promedio asociado al 
+resultado. Similarmente, el método `getAlgoritmo` 
+devuelve el valor del atributo `algoritmo`, 
+que representa el nombre del algoritmo asociado. 
+Por otro lado, los métodos `setAlgoritmo` y 
+`setPromedio` permiten establecer nuevos valores 
+para los atributos `algoritmo` y `promedio`, 
+respectivamente, proporcionando una forma de 
+actualizar la información almacenada en instancias 
+de la clase `Resultados`.	

@@ -1,0 +1,17 @@
+Este método, se encarga de visualizar 
+el estado actual del disco. Itera 
+sobre la lista de bloques (`n_bloques`) 
+en el disco y muestra información 
+sobre cada bloque. Si un bloque está 
+libre (`isEstado()` devuelve `false`), 
+se imprime "[Número del Bloque][Vacio]". 
+Si el bloque está ocupado, se imprime 
+"[Número del Bloque][Nombre del Archivo]". 
+La información se muestra en filas de 
+cuatro bloques, proporcionando una 
+visualización del estado del disco. 
+Cada línea representa el estado de 
+cuatro bloques en el disco, y la función 
+`System.out.println()` se utiliza para 
+cambiar de línea después de imprimir 
+cada conjunto de cuatro bloques.

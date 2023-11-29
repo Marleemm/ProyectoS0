@@ -1,0 +1,512 @@
+<!Doctype html5>
+<html lang="es">
+
+    <head>
+        <link rel="stylesheet" href="estilos_css/estilo.css">
+        <meta charset="UTF-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Funcionamiento</title>
+        <link rel="stylesheet" href="estilos_css/boton.css">
+
+    </head>
+
+    <body>
+
+        <div class="menuLateral">
+            <a href="index.html">
+                <font SIZE="3" FACE="Book Antiqua" COLOR="WHITE">
+                    <p ALIGN=center><b>I n i c i o</b>
+                    </p>
+                </a>
+    
+                <font SIZE="2" FACE="Book Antiqua" COLOR="WHITE">
+                    <p ALIGN=center><b>Gestión de memoria</b>
+                    </p>
+                <ul>
+                    <li><a href="manualU1.html">Manual de usuario</a></li>
+                    <li><a href="manualTec1.html">Manual tecnico</a></li>
+                    <li><a href="articulo1.html">Articulo</a></li>
+    
+                </ul>
+    
+                <font SIZE="2" FACE="Book Antiqua" COLOR="WHITE">
+                    <p ALIGN=center><b>Sistema de archivos</b>
+                    </p>
+                <ul>
+                    <li><a href="manualU2.html">Manual de usuario</a></li>
+                    <li><a href="manualTec2.html">Manual tecnico</a></li>
+                    <li><a href="articulo2.html">Articulo</a></li>
+                </ul>
+    
+                <font SIZE="2.5" FACE="Book Antiqua" COLOR="WHITE">
+                    <p ALIGN=center><b>Planificador de discos</b>
+                    </p>
+                <ul>
+                    <li><a href="manualU3.html">Manual de usuario</a></li>
+                    <li><a href="manualTec3.html">Manual tecnico</a></li>
+                    <li><a href="articulo3.html">Articulo</a></li>
+                </ul>
+        </div>
+                <main>
+
+                    <table BORDER="0" width="850px" align="center">
+                        <tr>
+                            <td>
+                                <center> <font SIZE="6" FACE="Book Antiqua"
+                                        COLOR="1D396C">
+                                        <p><i><b>Funcionamiento de código</b></i></p>
+                                    </font>
+                                </center>
+
+                                <p> <code><b>MainGui.java</b>
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                        COLOR="BLACK">
+                                        <p ALIGN=justify><b>Librerias</b>
+                                        </p>
+                                    </font>
+
+                                    <center>
+                                        <img
+                                            SRC="Imagenes_CodigoP2/1_MainGui/1_libreriasMainGui.png"
+                                            width="450" height="280">
+                                    </center>
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                        COLOR="BLACK">
+                                        <p ALIGN=justify>Importa las clases necesarias 
+                                            para trabajar con JavaFX y otras utilidades.</p>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo MainGui</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                            <img
+                                                SRC="Imagenes_CodigoP2/1_MainGui/2_MainGui.png"
+                                                width="350" height="160">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Declara una clase llamada 
+                                                MainGui que extiende la clase Application, 
+                                                indicando que esta clase es una aplicación 
+                                                JavaFX.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo voidMain</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                            <img
+                                                SRC="Imagenes_CodigoP2/1_MainGui/3_voidmain.png"
+                                                width="550" height="180">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Este método es el punto de entrada 
+                                                principal para la aplicación Java. 
+                                                Llama al método launch, que a su vez inicia 
+                                                la aplicación y llama al método start que 
+                                                definiste a continuación.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo voidStart</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                            <img
+                                                SRC="Imagenes_CodigoP2/1_MainGui/4_voidstart.png"
+                                                width="550" height="330">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Este método se llama cuando la aplicación se inicia. Aquí está el flujo de ejecución:
+
+                                                Carga la interfaz gráfica desde un archivo FXML llamado "menu.fxml".
+                                                Configura el título de la ventana como "Simulador de Archivos".
+                                                Crea una escena (Scene) con el objeto root y establece su tamaño inicial en 800x600 píxeles.
+                                                Configura el tamaño mínimo de la ventana en 800x600 píxeles.
+                                                Muestra la ventana</p>
+                                        </font>
+                                    </font>
+
+                                    <p> <code><b>Main.java</b>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Clase Main</b>
+                                            </p>
+                                        </font>
+    
+                                        <center>
+                                            <img
+                                                SRC="Imagenes_CodigoP2/2_Main/1_Main.png"
+                                                width="350" height="180">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Este código sirve como un punto 
+                                                de entrada alternativo a la aplicación. 
+                                                En lugar de iniciar directamente desde la 
+                                                clase MainGui, se inicia desde la clase Main. 
+                                                La intención puede ser proporcionar un punto 
+                                                de entrada más genérico o modular, 
+                                                o tal vez para cumplir con algún requisito 
+                                                específico de diseño o estructura del proyecto.</p>
+                                        </font>
+
+                                        <p> <code><b>Controladores.java</b>
+                                            <font SIZE="2" FACE="Book Antiqua"
+                                                COLOR="BLACK">
+                                                <p ALIGN=justify><b>Librerias</b>
+                                                </p>
+                                            </font>
+        
+                                            <center>
+                                                <img
+                                                    SRC="Imagenes_CodigoP2/3_Controladores/1_libreriasControladores.png"
+                                                    width="350" height="280">
+                                            </center>
+                                            <font SIZE="2" FACE="Book Antiqua"
+                                                COLOR="BLACK">
+                                                <p ALIGN=justify>Primeramente, se declara que 
+                                                    la clase se encuentra en el paquete 'Controladores'
+
+                                                    Importa diversas clases de JavaFX que son 
+                                                    utilizadas para la construcción de interfaces 
+                                                    gráficas de usuario (GUI). Aquí hay una breve 
+                                                    descripción de cada importación:
+                                                    
+                                                    FXML: Proporciona anotaciones para vincular 
+                                                    elementos de la interfaz de usuario (definidos 
+                                                    en archivos FXML) a campos en controladores.
+                                                    Button: Representa un botón en la interfaz gráfica.
+                                                    ColorPicker: Proporciona un control para seleccionar un color.
+                                                    ScrollPane: Ofrece un contenedor con barras de desplazamiento.
+                                                    TextField: Representa un campo de texto.
+                                                    ActionEvent: Se utiliza para manejar eventos de acción.
+                                                    AnchorPane: Es un contenedor que utiliza coordenadas 
+                                                    ancladas para posicionar sus hijos.
+                                                    
+                                                    Importa la clase JOptionPane del paquete javax.swing, 
+                                                    que es parte de la biblioteca Swing de Java y se utiliza 
+                                                    para mostrar cuadros de diálogo y mensajes en aplicaciones 
+                                                    de escritorio.</p>
+                                            </font>
+
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Clase contolMenu</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                            <img
+                                                SRC="Imagenes_CodigoP2/3_Controladores/2_controlMenu.png"
+                                                width="550" height="660">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>La clase `ControlMenu` en este 
+                                                código parece ser un controlador de interfaz 
+                                                gráfica que interactúa con elementos de la 
+                                                interfaz de usuario (UI) en una aplicación JavaFX. 
+                                                
+                                                La clase `ControlMenu` controla la lógica y 
+                                                las interacciones de la interfaz gráfica de 
+                                                una aplicación que involucra operaciones en 
+                                                discos y archivos. Los elementos de la interfaz 
+                                                gráfica están anotados con @FXML, indicando que 
+                                                serán inyectados por el cargador FXML durante 
+                                                la construcción de la interfaz.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo crearDisk</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                            <img
+                                                SRC="Imagenes_CodigoP2/3_Controladores/3_Creardisk.png"
+                                                width="550" height="360">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>El método crearDisk es un 
+                                                controlador de evento asociado a la acción 
+                                                de crear un disco en una interfaz gráfica 
+                                                JavaFX. Al ser activado, recopila el tamaño 
+                                                total del disco y el tamaño del bloque desde 
+                                                campos de texto en la interfaz, valida que 
+                                                el tamaño total sea divisible por el tamaño 
+                                                del bloque y, si es así, crea un objeto Disco 
+                                                con los valores proporcionados. 
+                                                Luego, inicializa el disco y realiza ajustes 
+                                                en la interfaz, habilitando ciertos elementos 
+                                                y deshabilitando otros. Si se ingresan datos 
+                                                no válidos o si ocurre alguna excepción, 
+                                                se muestra un mensaje de error.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo crearArchivo</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                            <img
+                                                SRC="Imagenes_CodigoP2/3_Controladores/4_crearArchivo.png"
+                                                width="560" height="380">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>El método `CrearArchivo` en 
+                                                este código JavaFX es un controlador de 
+                                                eventos asociado a la acción de crear un 
+                                                archivo en la interfaz gráfica. En primer 
+                                                lugar, instancia un nuevo objeto de la 
+                                                clase `Archivo` y verifica si el campo que 
+                                                contiene el nombre del archivo no está vacío. 
+                                                Si el nombre es proporcionado, se configura 
+                                                en el objeto de archivo recién creado. 
+                                                A continuación, intenta convertir el texto 
+                                                ingresado en el campo de tamaño del archivo 
+                                                a un valor numérico. Si la conversión es exitosa, 
+                                                el archivo se agrega al disco y se realizan 
+                                                ajustes en la interfaz, como la desactivación 
+                                                de ciertos elementos y la activación de otros 
+                                                relacionados con la asignación de bloques. Sin 
+                                                embargo, si hay algún problema durante la 
+                                                conversión o cualquier otra excepción, se muestra 
+                                                un mensaje de error indicando que los datos 
+                                                ingresados no son válidos. En el caso de que el 
+                                                vacío desde el principio, también se muestra un 
+                                                mensaje de error. </p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo AsignacionContigua</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                            <img
+                                                SRC="Imagenes_CodigoP2/3_Controladores/5_AsignacionContigua.png"
+                                                width="550" height="280">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>El método `AsignacionContiguaGUI` 
+                                                en la aplicación JavaFX actúa como un controlador 
+                                                de eventos asociado a la selección de asignación 
+                                                contigua en la interfaz gráfica. Primero, verifica 
+                                                si hay archivos presentes en el disco. Si la lista 
+                                                de archivos no está vacía, realiza ajustes en la 
+                                                interfaz desactivando y ocultando los botones 
+                                                relacionados con asignaciones indexadas y vinculadas, 
+                                                así como el botón de asignación contigua. Además, 
+                                                habilita y hace visible un área destinada a 
+                                                mostrar información relacionada con la asignación 
+                                                contigua, mientras desactiva el botón de asi
+                                                gnación contigua para evitar acciones adicionales 
+                                                durante la simulación. En caso de que no hay
+                                                a archivos en el disco, muestra un mensaje de 
+                                                error indicando que es necesario agregar archivo
+                                                s para iniciar la simulación. </p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo asignarC</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                            <img
+                                                SRC="Imagenes_CodigoP2/3_Controladores/6_AsignarC.png"
+                                                width="550" height="350">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>El método `asignarC` en la 
+                                                aplicación JavaFX funciona como un controlador 
+                                                de eventos asociado a la acción de asignar 
+                                                bloques contiguos a un archivo en el disco. 
+                                                Primero, intenta convertir el valor ingresado 
+                                                en el campo de bloque inicial a un número 
+                                                entero y verifica si ese bloque no está 
+                                                actualmente en uso. Si el bloque está disponible, 
+                                                realiza la asignación contigua llamando al 
+                                                método correspondiente en el objeto `disk`. 
+                                                Luego, actualiza la interfaz, habilitando 
+                                                la entrada de datos para el nombre y tamaño 
+                                                de nuevos archivos, desactivando la asignación de 
+                                                bloques contiguos y mostrando visualmente el 
+                                                estado actual del disco y la información del 
+                                                directorio de archivos. Si el bloque inicial 
+                                                está en uso, se emite una advertencia, y cualquier 
+                                                excepción relacionada con la conversión de datos o 
+                                                la asignación de bloques se maneja, mostrando 
+                                                un mensaje de error. </p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo BorrarArchivo</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                            <img
+                                                SRC="Imagenes_CodigoP2/3_Controladores/7_BorrarArchivo.png"
+                                                width="550" height="280">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>El método `BorrarArchivo` en la 
+                                                aplicación JavaFX funciona como un controlador 
+                                                de eventos asociado a la acción de eliminar 
+                                                un archivo del disco. En primer lugar, busca 
+                                                el archivo en el disco utilizando el nombre 
+                                                proporcionado en el campo `nom_archivo_borrar`. 
+                                                Si el archivo se encuentra, lo elimina del 
+                                                disco, actualiza la interfaz para reflejar 
+                                                los cambios y muestra un mensaje informativo 
+                                                indicando que la operación se realizó correctamente. 
+                                                En caso de que no se encuentre el archivo, 
+                                                emite una advertencia indicando que el archivo con 
+                                                el nombre especificado no fue hallado.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo eliminarDisco</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                            <img
+                                                SRC="Imagenes_CodigoP2/3_Controladores/8_EliminarDisco.png"
+                                                width="550" height="460">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>El método `eliminarDisco` en la 
+                                                aplicación JavaFX cumple la función de reiniciar 
+                                                o eliminar el objeto que representa un disco 
+                                                (`disk`). Primero, asigna `null` al objeto del disco, 
+                                                efectivamente eliminándolo. Luego, restaura los campos 
+                                                de entrada para el nombre y tamaño de archivos, 
+                                                así como los campos relacionados con el tamaño 
+                                                del disco y del bloque del disco,permitiendo 
+                                                que el usuario ingrese nuevos datos. Además, 
+                                                gestiona la interfaz gráfica al desactivar ciertos 
+                                                elementos y activar otros, indicando un estado 
+                                                inicial después de la eliminación o reinicio 
+                                                del disco. También oculta áreas específicas de 
+                                                la interfaz relacionadascon asignaciones de 
+                                                bloques y vuelve a habilitar las opciones de 
+                                                asignación de bloques, proporcionando así 
+                                                un entorno limpio para nuevas operaciones en 
+                                                la aplicación.</p>
+                                        </font>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Metodo Asignacion Vinculada</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                            <img
+                                                SRC="Imagenes_CodigoP2/3_Controladores/9_AsignacionVinculada.png"
+                                                width="550" height="650">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>El método `AsignacionVinculadaGUI` en 
+                                                la aplicación JavaFX se encarga de gestionar la interfaz
+                                                gráfica para la asignación de bloques de manera vinculada 
+                                                a un archivo. Primero, inicializa un panel y establece su 
+                                                tamaño mínimo. Luego, verifica la existencia de archivos 
+                                                en el disco y, si están presentes, genera dinámicamente 
+                                                campos de texto en el panel, representando bloques
+                                                en la asignación vinculada. Cada campo tiene propiedades 
+                                                específicas según su posición, como la capacidad de edición 
+                                                basada en la paridad del índice. Además, se crea un botón 
+                                                y se añaden acciones, como la actualización de un campo de 
+                                                texto en respuesta a cambios en otro. El botón también 
+                                                imprime "Hola mundo" en la consola cuando se presiona. La 
+                                                interfaz se adapta visualmente al desactivar y ocultar 
+                                                botones relacionados con otras asignaciones y mostrar el 
+                                                área de asignación vinculada. En caso de que no haya 
+                                                archivos en el disco, se presenta un mensaje de 
+                                               error indicando que es necesario agregar archivos para 
+                                               iniciar la simulación.</p>
+                                        </font>
+                                    </font>
+
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <a href="manualU2.html">
+                                                    <input type="button"
+                                                        value="Atras" />
+                                                </a>
+                                            </td>
+                                            <td>
+                                            <a href="Funcionamiento4_P2.html">
+                                                <input type="button" value="Siguiente" />
+                                            </a>
+                                        </td>
+
+                                    </tr>
+                                </table>
+
+                            </tr>
+                        </table>
+
+                        <br>
+                        <br>
+                        <address>
+                            <table BORDER="0" width="850px"
+                                align="center" BGCOLOR="1D396C">
+                                <tr>
+                                    <td>
+                                        <font SIZE="2"
+                                            FACE="Book Antiqua"
+                                            COLOR="WHITE">
+                                            <p ALIGN=justify>
+                                                <b>Colaboradores:</b><br><br>
+                                                -Hugo Jesus Guevara
+                                                Cocolotl 202067905<br>
+                                                -Jesus Eduardo Hernandez
+                                                Bravo 202039944<br>
+                                                -Marlem Martínez
+                                                Castillo 202045355<br>
+                                                -Miryam Salazar Vega
+                                                202075220
+                                            </p>
+                                        </font>
+                                    </td>
+
+                                </tr>
+                            </table>
+
+                        </address>
+                    </main>
+
+                </body>
+
+            </html>

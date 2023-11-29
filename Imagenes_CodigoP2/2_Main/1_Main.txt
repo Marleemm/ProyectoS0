@@ -1,0 +1,4 @@
+Este código sirve como un punto de entrada alternativo a la aplicación. 
+En lugar de iniciar directamente desde la clase MainGui, se inicia desde la clase Main. 
+La intención puede ser proporcionar un punto de entrada más genérico o modular, 
+o tal vez para cumplir con algún requisito específico de diseño o estructura del proyecto.

@@ -1,0 +1,6 @@
+Este metodo se encarga de inicializar algunos de los atributos de la instancia de esa clase, creando un array de tipo long llamado "mapa" 
+con un tamaño calculado en base a la memoria y el tamaño del bloque, asi como un array de tipo int llamado "mapaDeBits" con un tamaño 
+calculado en base a la memoria y el tamaño del bloque.Inicializa todos los elementos del array "mapaDeBits" a 0, todos los elementos del array "mapa" a 0 e 
+inicializa la cadena "visitado" como una cadena vacía.
+En conjunto, este método establece la estructura inicial de algunos de los atributos de la instancia de la clase AdministradorM, 
+preparándola para su uso posterior en el programa.

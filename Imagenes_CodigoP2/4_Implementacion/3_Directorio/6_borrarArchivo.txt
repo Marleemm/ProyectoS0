@@ -1,0 +1,7 @@
+Este método, llamado `borrarArchivo`, 
+se utiliza para eliminar un objeto de 
+la clase `Archivo` de la lista de 
+archivos (`archivos`) en ese directorio. 
+La línea de código `archivos.remove(a);` 
+elimina el objeto `a` de la lista de 
+archivos.

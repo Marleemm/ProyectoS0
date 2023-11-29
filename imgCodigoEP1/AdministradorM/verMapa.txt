@@ -1,0 +1,2 @@
+Este método muestra el contenido del array mapa de manera que cada valor se imprime seguido de un espacio. 
+Además, cada vez que se ha impreso un bloque de 4 valores, se inserta un salto de línea para mejorar la legibilidad de la salida. 

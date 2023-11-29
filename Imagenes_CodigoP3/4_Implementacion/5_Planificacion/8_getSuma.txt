@@ -1,0 +1,11 @@
+Este método tiene como función calcular y 
+devolver la suma de los elementos almacenados 
+en la lista `resta`. Primero, realiza un 
+bucle `for-each` sobre la lista `resta`, 
+acumulando cada elemento en la variable 
+`suma`. Finalmente, devuelve el resultado 
+de la suma. Cabe mencionar que este método 
+puede modificar el estado interno de la 
+instancia al sumar los elementos, por lo 
+que es importante comprender su comportamiento 
+al utilizarlo en un programa más extenso.

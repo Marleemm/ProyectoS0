@@ -1,0 +1,14 @@
+Esta función, llamada `SetTablaResultados`, se 
+encarga de actualizar la tabla de resultados en 
+la interfaz gráfica. Primero, verifica si la 
+lista de resultados (`resultados`) no está vacía. 
+En caso afirmativo, ordena la lista de resultados, 
+limpia los elementos existentes en la tabla 
+(`resultados_tabla.getItems().clear()`), refresca 
+la tabla, crea una nueva lista observable (`lista`) 
+que contiene todos los resultados ordenados, 
+establece esta lista como los nuevos elementos de 
+la tabla, y finalmente, refresca nuevamente la tabla 
+para reflejar los cambios. Si la lista de resultados 
+está vacía, imprime en la consola el mensaje "No 
+hay datos".

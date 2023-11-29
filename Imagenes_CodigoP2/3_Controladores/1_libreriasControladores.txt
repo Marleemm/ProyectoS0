@@ -1,0 +1,13 @@
+Primeramente, se declara que la clase se encuentra en el paquete 'Controladores'
+
+Importa diversas clases de JavaFX que son utilizadas para la construcción de interfaces gráficas de usuario (GUI). Aquí hay una breve descripción de cada importación:
+
+FXML: Proporciona anotaciones para vincular elementos de la interfaz de usuario (definidos en archivos FXML) a campos en controladores.
+Button: Representa un botón en la interfaz gráfica.
+ColorPicker: Proporciona un control para seleccionar un color.
+ScrollPane: Ofrece un contenedor con barras de desplazamiento.
+TextField: Representa un campo de texto.
+ActionEvent: Se utiliza para manejar eventos de acción.
+AnchorPane: Es un contenedor que utiliza coordenadas ancladas para posicionar sus hijos.
+
+Importa la clase JOptionPane del paquete javax.swing, que es parte de la biblioteca Swing de Java y se utiliza para mostrar cuadros de diálogo y mensajes en aplicaciones de escritorio.

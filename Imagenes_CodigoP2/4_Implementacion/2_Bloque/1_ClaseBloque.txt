@@ -1,0 +1,9 @@
+La clase llamada `Bloque`, ubicada 
+en el paquete `Implementacion`, 
+representa bloques en un sistema 
+de almacenamiento. Tiene campos que 
+registran el estado del bloque 
+(ocupado o libre), su número identificador,
+ y una referencia a un objeto de la clase 
+`Archivo`, indicando qué archivo está 
+asociado a este bloque.

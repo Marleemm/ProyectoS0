@@ -1,0 +1,12 @@
+Los métodos `setPromedio` y `getPromedio` 
+están diseñados para calcular y proporcionar 
+acceso al promedio de los elementos contenidos 
+en la lista `cola_disco`. El método `setPromedio` 
+realiza el cálculo dividiendo la suma de los 
+elementos entre el tamaño de la cola de discos, 
+almacenando el resultado como un número decimal 
+en el atributo `promedio`. Por otro lado, el 
+método `getPromedio` actúa como un getter, 
+devolviendo el valor actual del atributo 
+`promedio`, permitiendo así a otras clases 
+obtener el promedio calculado.

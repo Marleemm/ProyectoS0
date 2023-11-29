@@ -1,0 +1,10 @@
+El método `AlgoritmoLook` implementa el 
+algoritmo de planificación de discos "Look". 
+Inicializa la cola de discos con la posición 
+actual del cabezal, la ordena y determina 
+la posición del cabezal en la cola. Luego, 
+reorganiza la cola para simular el movimiento 
+bidireccional del cabezal y calcula las distancias 
+entre pistas consecutivas, almacenándolas en 
+la lista `resta`. El promedio de estas distancias 
+se calcula mediante el método `setPromedio()`. 

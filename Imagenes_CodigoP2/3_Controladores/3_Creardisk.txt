@@ -1,0 +1,8 @@
+
+El método crearDisk es un controlador de evento asociado a la acción de crear un disco en 
+una interfaz gráfica JavaFX. Al ser activado, recopila el tamaño total del disco y el tamaño 
+del bloque desde campos de texto en la interfaz, valida que el tamaño total sea divisible 
+por el tamaño del bloque y, si es así, crea un objeto Disco con los valores proporcionados. 
+Luego, inicializa el disco y realiza ajustes en la interfaz, habilitando ciertos elementos 
+y deshabilitando otros. Si se ingresan datos no válidos o si ocurre alguna excepción, 
+se muestra un mensaje de error.

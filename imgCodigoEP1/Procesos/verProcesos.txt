@@ -1,0 +1,4 @@
+Este método proporciona una manera de visualizar información detallada sobre cada proceso en la lista. 
+La salida generada por este método mostrará el nombre del proceso, su índice de inicio y su tamaño en 
+bloques para cada proceso en la lista enlazada. Este tipo de método es útil para propósitos de depuración 
+o para obtener una visión general de los procesos almacenados en la lista.

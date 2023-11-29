@@ -1,0 +1,11 @@
+Estos métodos proporcionan una interfaz 
+para acceder y modificar el atributo 
+`tamanio_bloque`, que representa el 
+tamaño de cada bloque en el disco. 
+El método `getTamanio_bloque()` funciona 
+como un getter, devolviendo el tamaño 
+actual de los bloques, mientras que 
+`setTamanio_bloque(int tamanio_bloque)` 
+actúa como un setter, permitiendo cambiar 
+este valor al proporcionar un nuevo 
+tamaño de bloque como parámetro.

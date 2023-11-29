@@ -1,0 +1,9 @@
+El método `AsignacionContiguaGUI` en la aplicación JavaFX actúa como un controlador de eventos 
+asociado a la selección de asignación contigua en la interfaz gráfica. Primero, verifica si hay
+ archivos presentes en el disco. Si la lista de archivos no está vacía, realiza ajustes en la 
+interfaz desactivando y ocultando los botones relacionados con asignaciones indexadas y vinculadas, 
+así como el botón de asignación contigua. Además, habilita y hace visible un área destinada a 
+mostrar información relacionada con la asignación contigua, mientras desactiva el botón de asi
+gnación contigua para evitar acciones adicionales durante la simulación. En caso de que no hay
+a archivos en el disco, muestra un mensaje de error indicando que es necesario agregar archivo
+s para iniciar la simulación. 

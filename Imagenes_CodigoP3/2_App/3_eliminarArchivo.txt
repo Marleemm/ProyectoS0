@@ -1,0 +1,13 @@
+Este código Java define una clase que extiende 
+`Application` para una aplicación JavaFX. El 
+método `eliminarArchivo()` elimina el archivo 
+"info.txt" si existe, imprimiendo mensajes en 
+la consola según el resultado de la operación. 
+La función `main` inicia la aplicación JavaFX 
+invocando `launch(args)`, que, a su vez, ejecuta 
+el método `start` de la clase `App` para configurar 
+la interfaz gráfica. En conjunto, el código 
+proporciona una estructura básica para una 
+aplicación que carga una interfaz gráfica y 
+realiza operaciones de archivo, como la eliminación 
+del archivo "info.txt".

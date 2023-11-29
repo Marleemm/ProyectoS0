@@ -1,0 +1,8 @@
+Este método tiene como función permitir que 
+se establezca una nueva lista de enteros como 
+valor para el atributo `cola_disco` de la 
+instancia de la clase. El método toma una 
+lista de enteros como parámetro y asigna esa 
+lista al atributo `cola_disco`, actualizando 
+así el estado interno de la instancia con la 
+nueva cola de discos proporcionada.

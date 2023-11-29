@@ -1,0 +1,7 @@
+Este método se llama cuando la aplicación se inicia. Aquí está el flujo de ejecución:
+
+Carga la interfaz gráfica desde un archivo FXML llamado "menu.fxml".
+Configura el título de la ventana como "Simulador de Archivos".
+Crea una escena (Scene) con el objeto root y establece su tamaño inicial en 800x600 píxeles.
+Configura el tamaño mínimo de la ventana en 800x600 píxeles.
+Muestra la ventana

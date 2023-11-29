@@ -1,0 +1,3 @@
+La función convertirBinarioADecimal toma una cadena binaria como entrada y devuelve su equivalente en decimal.
+Entonces, el método setMapa procesa el array mapaDeBits, toma cada bloque de 8 bits y lo convierte en su valor 
+decimal correspondiente, almacenando los resultados en el array mapa. 

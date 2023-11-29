@@ -1,0 +1,11 @@
+Este fragmento de código Java representa 
+un menú interactivo en la consola para 
+seleccionar diferentes algoritmos de 
+planificación de disco. Utiliza la clase 
+`BufferedReader` para leer la entrada del 
+usuario y un bucle `while` para presentar 
+continuamente el menú hasta que el usuario 
+elige salir (opción 8). Dentro del bucle, 
+se utiliza una instrucción `switch` para 
+manejar las diferentes opciones seleccionadas 
+por el usuario.

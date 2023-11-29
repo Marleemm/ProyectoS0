@@ -1,0 +1,11 @@
+Este fragmento de código en Java establece 
+un paquete llamado `Implementacion` e importa 
+las clases `File` y `Scanner` del paquete 
+`java.io`. La clase `File` se utiliza para 
+representar y manipular rutas de archivos 
+o directorios, mientras que la clase `Scanner` 
+se utiliza para leer datos de diversas fuentes, 
+incluidos archivos. Estas importaciones sugieren 
+que en el contexto de este paquete se pueden 
+realizar operaciones relacionadas con archivos 
+y entrada de datos utilizando la clase `Scanner`.

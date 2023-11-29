@@ -1,0 +1,3 @@
+Esta clase encapsula la información relacionada con un elemento en un mapa que utiliza valores decimales para 
+describir el estado de la memoria. Los atributos almacenan la dirección y el valor decimal, y los métodos de 
+acceso permiten obtener esta información desde fuera de la clase. 

@@ -1,0 +1,13 @@
+Este método `initialize` implementa la interfaz 
+`Initializable` y se ejecuta al inicializar el 
+controlador. Su función principal es configurar 
+la tabla de resultados en la interfaz gráfica. 
+Utiliza `setCellValueFactory` para asociar las 
+propiedades de las columnas de la tabla (`metodo_resultado` 
+y `longitud_resultado`) con los métodos 
+`getAlgoritmo()` y `getPromedio()` de la clase 
+`Resultados`, respectivamente. Esta configuración 
+establece cómo se deben mostrar los datos de la 
+lista de resultados en la interfaz gráfica, 
+asegurando que la tabla se llene correctamente 
+con la información correspondiente.

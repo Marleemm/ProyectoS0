@@ -1,0 +1,13 @@
+Estos métodos dentro de la `Archivo` 
+siguen el patrón getter-setter para 
+manipular el atributo privado `tamanio`. 
+El método `getTamanio()` devuelve el 
+valor actual del tamaño del archivo, 
+permitiendo acceder a esa información 
+desde fuera de la clase. Por otro lado, 
+el método `setTamanio(int tamanio)` 
+permite cambiar el valor del tamaño 
+al proporcionar un nuevo valor como 
+parámetro, facilitando así la modificación 
+controlada de este atributo desde 
+otras partes del programa. 

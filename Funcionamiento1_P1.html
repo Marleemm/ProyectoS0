@@ -1,0 +1,403 @@
+<!Doctype html5>
+<html lang="es">
+
+    <head>
+        <link rel="stylesheet" href="estilos_css/estilo.css">
+        <meta charset="UTF-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Funcionamiento</title>
+        <link rel="stylesheet" href="estilos_css/boton.css">
+
+    </head>
+
+    <body>
+
+        <div class="menuLateral">
+            <a href="index.html">
+                <font SIZE="3" FACE="Book Antiqua" COLOR="WHITE">
+                    <p ALIGN=center><b>I n i c i o</b>
+                    </p>
+                </a>
+    
+                <font SIZE="2" FACE="Book Antiqua" COLOR="WHITE">
+                    <p ALIGN=center><b>Gestión de memoria</b>
+                    </p>
+                <ul>
+                    <li><a href="manualU1.html">Manual de usuario</a></li>
+                    <li><a href="manualTec1.html">Manual tecnico</a></li>
+                    <li><a href="articulo1.html">Articulo</a></li>
+    
+                </ul>
+    
+                <font SIZE="2" FACE="Book Antiqua" COLOR="WHITE">
+                    <p ALIGN=center><b>Sistema de archivos</b>
+                    </p>
+                <ul>
+                    <li><a href="manualU2.html">Manual de usuario</a></li>
+                    <li><a href="manualTec2.html">Manual tecnico</a></li>
+                    <li><a href="articulo2.html">Articulo</a></li>
+                </ul>
+    
+                <font SIZE="2.5" FACE="Book Antiqua" COLOR="WHITE">
+                    <p ALIGN=center><b>Planificador de discos</b>
+                    </p>
+                <ul>
+                    <li><a href="manualU3.html">Manual de usuario</a></li>
+                    <li><a href="manualTec3.html">Manual tecnico</a></li>
+                    <li><a href="articulo3.html">Articulo</a></li>
+                </ul>
+        </div>
+
+                <main>
+
+                    <table BORDER="0" width="850px" align="center">
+                        <tr>
+                            <td>
+                                <center> <font SIZE="6" FACE="Book Antiqua"
+                                    COLOR="1D396C">
+                                    <p><i><b>Funcionamiento de código</b></i></p>
+                                </font>
+                            </center>
+                                <p> <code><b>Archivos.java</b>
+                                    </code></p>
+                                <font SIZE="2" FACE="Book Antiqua" COLOR="BLACK">
+                                    <p ALIGN=justify><b>Librerias</b> </p>
+                                </font>
+                                <center>
+                                    <img
+                                        SRC="imagCodigoP1/archivos/librerias.png"
+                                        width="450" height="160">
+                                </center>
+                                <br>
+                                <font SIZE="2" FACE="Book Antiqua" COLOR="BLACK">
+                                    <p ALIGN=justify>Estas bibliotecas se
+                                        utilizan para permitir al usuario
+                                        seleccionar una
+                                        ubicación de archivo, escribir datos en
+                                        un archivo de texto y mostrar mensajes
+                                        de
+                                        confirmación o error durante el proceso.</p>
+                                </font>
+                                <font SIZE="2" FACE="Book Antiqua" COLOR="BLACK">
+                                    <p ALIGN=justify><b>Metodo escribir</b> </p>
+                                </font>
+                                <center>
+                                    <img
+                                        SRC="imagCodigoP1/archivos/escribir.png"
+                                        width="450" height="260">
+                                </center>
+                                <font SIZE="2" FACE="Book Antiqua" COLOR="BLACK">
+                                    <p ALIGN=justify>El método escribir se
+                                        encarga de escribir el contenido (msg)
+                                        en un archivo
+                                        especificado por su ruta (ruta).
+                                        Primero, se intenta abrir el archivo en
+                                        modo de escritura
+                                        adicional (true) usando un FileWriter.
+                                        Luego, se escribe el contenido en el
+                                        archivo y se
+                                        cierra. Si ocurre algún error, se
+                                        captura la excepción y se imprime
+                                        "Archivo no encontrado"
+                                        en la consola. Este método simplifica el
+                                        proceso de escritura en un archivo de
+                                        texto y
+                                        maneja las posibles excepciones que
+                                        puedan ocurrir durante la operación.
+                                    </p>
+
+                                </font>
+
+                                <font SIZE="2" FACE="Book Antiqua" COLOR="BLACK">
+                                    <p ALIGN=justify><b>Metodo rutaArchivo</b>
+                                    </p>
+                                </font>
+                                <center>
+                                    <img SRC="imagCodigoP1/archivos/ruta.png"
+                                        width="450" height="260">
+                                </center>
+                                <font SIZE="2" FACE="Book Antiqua" COLOR="BLACK">
+                                    <p ALIGN=justify>El método rutaArchivo
+                                        muestra un cuadro de diálogo que permite
+                                        al usuario
+                                        seleccionar una ubicación y nombre de
+                                        archivo para guardar datos. Luego,
+                                        devuelve la ruta
+                                        seleccionada como una cadena de texto.
+                                        Si el usuario no selecciona un archivo o
+                                        cancela la
+                                        operación, muestra un mensaje de error
+                                        en la consola.
+                                    </p>
+
+                                    <p> <code><b>Fifo.java</b>
+                                            <font SIZE="2" FACE="Book Antiqua"
+                                                COLOR="BLACK">
+                                                <p ALIGN=justify><b>Librerias</b>
+                                                </p>
+                                            </font>
+                                            <center>
+                                                <img
+                                                    SRC="imagCodigoP1/fifo/libreriasfifo.png"
+                                                    width="450" height="160">
+                                            </center>
+                                            <font SIZE="2" FACE="Book Antiqua"
+                                                COLOR="BLACK">
+                                                <p ALIGN=justify>Las bibliotecas
+                                                    java.util.Queue y
+                                                    java.util.LinkedList sirven
+                                                    para implementar una cola
+                                                    (FIFO) que rastrea los
+                                                    marcos de página.
+
+                                                    mientras que
+                                                    java.util.ArrayList sirve
+                                                    para mantener un registro de
+                                                    la cola de marcos de página
+                                                    en cada paso del algoritmo.</p>
+                                            </font>
+
+                                            <font SIZE="2" FACE="Book Antiqua"
+                                                COLOR="BLACK">
+                                                <p ALIGN=justify><b>Clase fifo</b>
+                                                </p>
+                                            </font>
+                                            <center>
+                                                <img
+                                                    SRC="imagCodigoP1/fifo/clasefifo1.png"
+                                                    width="550" height="260">
+                                            </center>
+                                            <font SIZE="2" FACE="Book Antiqua"
+                                                COLOR="BLACK">
+                                                <p ALIGN=justify>Esta parte del
+                                                    código es la definición de
+                                                    la clase Fifo y la
+                                                    declaración de sus variables
+                                                    miembro que se utilizarán en
+                                                    la implementación
+                                                    del algoritmo FIFO para el
+                                                    reemplazo de páginas. Los
+                                                    métodos de la clase se
+                                                    encargan de realizar las
+                                                    operaciones necesarias para
+                                                    aplicar el algoritmo y
+                                                    generar una tabla que
+                                                    muestra el proceso.</p>
+                                            </font>
+                                        </font>
+                                        <center><img
+                                                SRC="imagCodigoP1/fifo/clasefifo2.png"
+                                                width="550" height="260"></center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Estos métodos
+                                                permiten configurar la
+                                                simulación con la cadena de
+                                                referencia, el tamaño de la
+                                                cadena, y la cantidad de marcos.
+                                                Además, proporcionan acceso a
+                                                información importante como el
+                                                estado de la cola, la matriz de
+                                                marcos de página, los fallos de
+                                                página, y una representación de
+                                                la matriz en formato de cadena.
+                                                Estos métodos son esenciales
+                                                para la ejecución y supervisión
+                                                de la simulación del algoritmo
+                                                FIFO.</p>
+                                        </font>
+
+                                        <center><img
+                                                SRC="imagCodigoP1/fifo/clasefifo3.png"
+                                                width="550" height="260"></center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>iniciarxfallos() y
+                                                iniciarMatriz() preparan las
+                                                estructuras de datos para la
+                                                simulación, mientras que
+                                                siguiente() y buscar(int
+                                                paginaActual) gestionan el
+                                                estado y la búsqueda de páginas
+                                                en los marcos de página. </p>
+                                        </font>
+
+                                        <center><img
+                                                SRC="imagCodigoP1/fifo/clasefifo4.1.png"
+                                                width="550" height="260"></center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>
+                                                El método modificar en la
+                                                clase representa la
+                                                actualización de la matriz de
+                                                marcos y el array de fallos en
+                                                el contexto del algoritmo FIFO;
+                                                si una página no está presente
+                                                en los marcos, la coloca en el
+                                                marco actual y registra un fallo
+                                                de página. Por otro lado, el
+                                                método algoritmoFifo
+                                                implementa la lógica completa
+                                                del algoritmo FIFO,
+                                                inicializando estructuras de
+                                                datos, recorriendo la cadena de
+                                                referencia para ajustar la
+                                                matriz y el array de fallos, y
+                                                luego mostrando el estado final
+                                                de la simulación, incluyendo la
+                                                tabla de marcos, la cola y
+                                                realizando cálculos de
+                                                rendimiento. En conjunto, estos
+                                                métodos forman una simulación
+                                                completa del algoritmo FIFO para
+                                                la gestión de fallos de página
+                                                en sistemas operativos.</p>
+                                        </font>
+
+                                        <center><img
+                                                SRC="imagCodigoP1/fifo/clasefifo4.2.png"
+                                                width="550" height="260"></center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>El método
+                                                mostrarTabla de la clase
+                                                imprime y registra en una
+                                                variable (`tab`) el estado final
+                                                de la simulación del algoritmo
+                                                FIFO. Muestra las referencias,
+                                                seguido de una tabla que
+                                                representa el contenido de los
+                                                marcos de página en cada paso de
+                                                la simulación. La tabla refleja
+                                                las páginas presentes en cada
+                                                marco, indicando fallos de
+                                                página con "1".</p>
+                                        </font>
+
+                                        <center><img
+                                                SRC="imagCodigoP1/fifo/clasefifo5.png"
+                                                width="550" height="260"></center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>
+                                                El método colaActulizacion
+                                                actualiza dinámicamente la cola
+                                                utilizada en el algoritmo FIFO
+                                                durante la simulación. Itera
+                                                sobre cada página en la cadena
+                                                de referencia y ajusta la cola
+                                                según si hay espacio disponible
+                                                o si necesita realizar una
+                                                operación de poling y agregar.
+                                                Al mismo tiempo, registra el
+                                                estado actual de la cola en cada
+                                                paso, almacenando una copia en
+                                                la lista cola. Este método es
+                                                esencial para mantener un
+                                                seguimiento de cómo evoluciona
+                                                la cola de marcos de página</p>
+                                        </font>
+
+                                        <center><img
+                                                SRC="imagCodigoP1/fifo/clasefifo6.png"
+                                                width="550" height="160"></center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>El método
+                                                calculos de la clase realiza
+                                                cálculos de rendimiento para el
+                                                algoritmo FIFO. Calcula la razón
+                                                de
+                                                fallos y el rendimiento, imprime
+                                                estos resultados en la consola y
+                                                devuelve una cadena con la
+                                                información. La variable
+                                                `colaString` se utiliza para
+                                                almacenar información sobre la
+                                                cola de marcos de página y se
+                                                inicializa como una cadena
+                                                vacía.</p>
+                                        </font>
+
+                                        <center><img
+                                                SRC="imagCodigoP1/fifo/clasefifo7.png"
+                                                width="550" height="260"></center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>El método
+                                                mostrarCola imprime el estado
+                                                de la cola y acumula
+                                                esta información en la variable
+                                                colaString. El método
+                                                limpiarDatos reinicia varios
+                                                aspectos de la simulación,
+                                                incluyendo la cadena auxiliar,
+                                                la matriz de marcos, el array de
+                                                fallos, la cola, colaString, y
+                                                tab. Estos métodos de
+                                                visualización
+                                                detallada de la cola y la
+                                                capacidad de reiniciar los datos
+                                                para una nueva simulación.</p>
+                                        </font>
+
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <a href="manualU1.1.html">
+                                                        <input type="button"
+                                                            value="Atras" />
+                                                    </a>
+                                                </td>
+
+                                                <td>
+                                                    <a
+                                                        <a
+                                                        href="Funcionamiento2_P1.html">
+                                                        <input type="button"
+                                                            value="Siguiente" />
+                                                    </a>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </tr>
+                            </table>
+
+                            <br>
+                            <br>
+                            <address>
+                                <table BORDER="0" width="850px"
+                                    align="center" BGCOLOR="1D396C">
+                                    <tr>
+                                        <td>
+                                            <font SIZE="2"
+                                                FACE="Book Antiqua"
+                                                COLOR="WHITE">
+                                                <p ALIGN=justify>
+                                                    <b>Colaboradores:</b><br><br>
+                                                    -Hugo Jesus Guevara
+                                                    Cocolotl 202067905<br>
+                                                    -Jesus Eduardo Hernandez
+                                                    Bravo 202039944<br>
+                                                    -Marlem Martínez
+                                                    Castillo 202045355<br>
+                                                    -Miryam Salazar Vega
+                                                    202075220
+                                                </p>
+                                            </font>
+                                        </td>
+
+                                    </tr>
+                                </table>
+
+                            </address>
+                        </main>
+
+                    </body>
+
+                </html>

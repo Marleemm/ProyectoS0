@@ -1,0 +1,13 @@
+Estos métodos que se encuentran de la 
+clase `Archivo` siguen el patrón 
+getter-setter para manipular el atributo 
+privado `inicio`. El método `getInicio()` 
+devuelve el valor actual de la posición 
+de inicio, permitiendo acceder a esa 
+información externamente. Por otro lado, 
+el método `setInicio(int inicio)` permite 
+cambiar el valor de la posición de inicio 
+al proporcionar un nuevo valor como 
+parámetro, facilitando así la modificación 
+controlada de este atributo desde otras 
+partes del programa.

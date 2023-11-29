@@ -1,0 +1,13 @@
+La clase `MainControlador` implementa la interfaz 
+`Initializable` para la inicialización de controladores 
+en una aplicación JavaFX. Los campos anotados con 
+`@FXML` están vinculados a elementos de la interfaz 
+gráfica, como áreas de texto, campos de texto, 
+botones y una tabla. La clase también contiene 
+listas para almacenar resultados y números enteros. 
+Se espera que esta clase gestione la lógica y la 
+interacción de la interfaz gráfica relacionada con 
+la simulación o aplicación, incluyendo la manipulación 
+de la cola, información del cabezal y pistas, así como 
+la presentación de resultados en una tabla y visualización 
+en un área de desplazamiento.

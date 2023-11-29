@@ -1,0 +1,10 @@
+El método `setBloques_asignados` permite 
+agregar un número entero `n` a la lista 
+de bloques asignados (`bloques_asignados`). 
+Este método es un setter personalizado 
+que se encarga de la asignación de bloques 
+al objeto `Archivo`. Cada vez que se 
+llama a este método, el número `n` se 
+agrega a la lista `bloques_asignados`, 
+lo que indica que el archivo está asociado 
+a ese bloque específico. 

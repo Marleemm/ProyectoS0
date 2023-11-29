@@ -1,0 +1,14 @@
+Los dos constructores permiten la 
+creación de instancias de un objeto 
+`Disco`. El primer constructor (`Disco()`) 
+inicializa la lista de bloques y el 
+directorio sin especificar tamaños, 
+mientras que el segundo constructor 
+(`Disco(int tamanio, int tamanio_bloque)`) 
+permite la creación de un disco con 
+tamaños específicos proporcionados como 
+argumentos. En ambos casos, se establece 
+una lista de bloques y se crea un nuevo 
+objeto `Directorio`, proporcionando 
+estructuras fundamentales para representar 
+un disco en un sistema de archivos simulado.

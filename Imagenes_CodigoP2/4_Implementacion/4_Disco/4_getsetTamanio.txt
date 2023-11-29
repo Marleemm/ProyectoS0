@@ -1,0 +1,10 @@
+Estos métodos permiten acceder y 
+modificar el atributo `tamanio`, 
+que representa el tamaño total del 
+disco. El método `getTamanio()` 
+funciona como un getter, devolviendo 
+el tamaño actual del disco, mientras 
+que `setTamanio(int tamanio)` actúa 
+como un setter, permitiendo cambiar 
+este valor al proporcionar un nuevo 
+tamaño como parámetro.

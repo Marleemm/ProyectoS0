@@ -1,0 +1,14 @@
+Esta parte del codigo muestra el 
+inicio de un archivo de código 
+fuente Java ubicado en el paquete 
+`Implementacion`. Además, se 
+importa la clase `ArrayList` desde 
+el paquete `java.util`. El paquete 
+`java.util` es parte de la biblioteca 
+estándar de Java y proporciona 
+varias clases y utilidades, incluyendo 
+la implementación de listas dinámicas 
+como `ArrayList`. La inclusión de `ArrayList` 
+en este archivo sugiere que se planea utilizar 
+listas dinámicas en el código para 
+almacenar y manipular conjuntos de elementos.

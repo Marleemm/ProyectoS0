@@ -1,0 +1,247 @@
+<!Doctype html5>
+<html lang="es">
+
+    <head>
+        <link rel="stylesheet" href="estilos_css/estilo.css">
+        <meta charset="UTF-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Funcionamiento</title>
+        <link rel="stylesheet" href="estilos_css/boton.css">
+
+    </head>
+
+    <body>
+
+        <div class="menuLateral">
+            <a href="index.html">
+                <font SIZE="3" FACE="Book Antiqua" COLOR="WHITE">
+                    <p ALIGN=center><b>I n i c i o</b>
+                    </p>
+                </a>
+    
+                <font SIZE="2" FACE="Book Antiqua" COLOR="WHITE">
+                    <p ALIGN=center><b>Gestión de memoria</b>
+                    </p>
+                <ul>
+                    <li><a href="manualU1.html">Manual de usuario</a></li>
+                    <li><a href="manualTec1.html">Manual tecnico</a></li>
+                    <li><a href="articulo1.html">Articulo</a></li>
+    
+                </ul>
+    
+                <font SIZE="2" FACE="Book Antiqua" COLOR="WHITE">
+                    <p ALIGN=center><b>Sistema de archivos</b>
+                    </p>
+                <ul>
+                    <li><a href="manualU2.html">Manual de usuario</a></li>
+                    <li><a href="manualTec2.html">Manual tecnico</a></li>
+                    <li><a href="articulo2.html">Articulo</a></li>
+                </ul>
+    
+                <font SIZE="2.5" FACE="Book Antiqua" COLOR="WHITE">
+                    <p ALIGN=center><b>Planificador de discos</b>
+                    </p>
+                <ul>
+                    <li><a href="manualU3.html">Manual de usuario</a></li>
+                    <li><a href="manualTec3.html">Manual tecnico</a></li>
+                    <li><a href="articulo3.html">Articulo</a></li>
+                </ul>
+        </div>
+
+                <main>
+
+                    <table BORDER="0" width="850px" align="center">
+                        <tr>
+                            <td>
+                                <center> <font SIZE="6" FACE="Book Antiqua"
+                                        COLOR="1D396C">
+                                        <p><i><b>Funcionamiento de código</b></i></p>
+                                    </font>
+                                </center>
+
+                                <p> <code><b>Lru.java</b>
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                        COLOR="BLACK">
+                                        <p ALIGN=justify><b>Librerias</b>
+                                        </p>
+                                    </font>
+
+                                    <center>
+                                        <img
+                                            SRC="imagCodigoP1/Lru/librerias.png"
+                                            width="350" height="180">
+                                    </center>
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                        COLOR="BLACK">
+                                        <p ALIGN=justify> El paquete java.util.* en Java ofrece clases de utilidad estándar, 
+                                                        como colecciones y clases de fecha. Al importar *, se incluyen todas 
+                                                        las clases y subpaquetes dentro de java.util. Por otro lado, javax.swing.JOptionPane 
+                                                        pertenece a Java Swing, proporcionando métodos estáticos para la creación de cuadros
+                                                         de diálogo en interfaces gráficas de usuario. Estos paquetes son ampliamente utilizados
+                                                          en aplicaciones Java para gestionar colecciones y crear elementos de interfaz gráfica.
+                                         </p>
+                                    </font>
+
+                                    <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify><b>Clase Lru</b>
+                                            </p>
+                                        </font>
+                                        <center>
+                                            <img
+                                                SRC="imagCodigoP1/Lru/Lru1.png"
+                                                width="550" height="260">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>La clase LRU en Java implementa el algoritmo Least Recently Used (LRU) para manejar fallos de página en sistemas de memoria. Utiliza atributos como la cadena de referencia, la cantidad de marcos de página, una matriz para la memoria física, y un array para registrar fallos. Sus métodos brindan funcionalidades esenciales, como inicialización de estructuras, búsqueda y actualización en caso de fallos. También calcula estadísticas y actualiza colas para visualizar el estado del algoritmo.</p>
+
+                                        </font>
+                                    
+
+                
+                                        <center>
+                                            <img
+                                                SRC="imagCodigoP1/Lru/Lru2.png"
+                                                width="550" height="260">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Estos métodos en Java (setCadena, setTamanoCadena, setCantidadMarcos, iniciarxfallos, y getMatrizString) son parte de una implementación del algoritmo Least Recently Used (LRU) para el manejo de fallos de página en sistemas de memoria. Se utilizan para configurar parámetros iniciales, como la cadena de referencia, el tamaño de la cadena y la cantidad de marcos de página, así como para inicializar estructuras de datos y obtener representaciones en cadena de la matriz utilizada en el algoritmo.</p>
+                                        </font>
+                                    
+
+                        
+                                        <center>
+                                            <img
+                                                SRC="imagCodigoP1/Lru/Lru3.png"
+                                                width="550" height="360">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>Estos métodos son parte de la implementación del algoritmo Least Recently Used (LRU) en Java. iniciarMatriz inicializa una matriz para representar los marcos de página. buscar, llenarFila y MayorDistancia son funciones clave en la lógica de LRU: buscar determina la presencia de un elemento en los marcos, llenarFila actualiza la matriz en caso de un fallo de página, y MayorDistancia encuentra el marco más antiguo para reemplazarlo.</p>
+                                        </font>
+                                    
+                                    
+                                        <center>
+                                            <img
+                                                SRC="imagCodigoP1/Lru/Lru4.png"
+                                                width="550" height="360">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>El método modificar en el algoritmo LRU se encarga de gestionar la página actual. Primero, verifica si hay un marco libre. Si todos están ocupados, utiliza la función MayorDistancia para encontrar el marco más antiguo y lo llena con la página actual. Luego, marca el fallo de página en el array fallos. El método algoritmoLru implementa el algoritmo completo, utilizando la matriz de marcos, el array de fallos y funciones auxiliares. Después de procesar todas las páginas, se muestra la tabla, la cola de actualización y se calculan las estadísticas de fallos y rendimiento. Este conjunto de funciones constituye un algoritmo de reemplazo de página eficiente en términos de uso de memoria.
+
+
+
+
+                                            </p>
+                                        </font>
+                                    
+
+                                        <center>
+                                            <img
+                                                SRC="imagCodigoP1/Lru/Lru5.png"
+                                                width="550" height="360">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>
+                                                El método mostrarTabla en la implementación del algoritmo LRU se encarga de imprimir la tabla que representa el estado de los marcos y los fallos de página en cada iteración del algoritmo. Primero, muestra la línea de referencias, seguida de una línea separadora. Luego, presenta cada marco con sus respectivas páginas en cada columna, dejando espacios para las páginas aún no cargadas. Finalmente, muestra la línea de fallos, indicando con "1" aquellos lugares donde se ha producido un fallo de página</p>
+                                        </font>
+                                    
+
+                                
+                                        <center>
+                                            <img
+                                                SRC="imagCodigoP1/Lru/Lru6.png"
+                                                width="550" height="360">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>
+                                                El método colaActulizacion, actualiza la cola (cola) que refleja el estado de los marcos en cada iteración. Utiliza una lista (marcosLista) para rastrear los elementos presentes en los marcos, ajustándola durante cada iteración de la cadena de referencia. La cola almacena copias de esta lista, proporcionando un historial del contenido de los marcos a lo largo del algoritmo. La variable calculos se mantiene como una cadena vacía, sin participar en este método específico.</p>
+                                        </font>
+                                    
+
+                    
+                                        <center>
+                                            <img
+                                                SRC="imagCodigoP1/Lru/Lru7.png"
+                                                width="550" height="260">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>En el método calculos, calcula la cantidad de fallos, la razón de fallos y el rendimiento del algoritmo. Estos resultados se imprimen en la consola y se almacenan en la variable calculos, que luego se utiliza en el método calculo para devolver la información calculada en formato de cadena. La variable colaString se mantiene como una cadena vacía y no participa en este método específico.
+
+
+
+
+                                            </p>
+                                        </font>
+                                    
+
+                                    
+                                        <center>
+                                            <img
+                                                SRC="imagCodigoP1/Lru/Lru8.png"
+                                                width="550" height="260">
+                                        </center>
+                                        <font SIZE="2" FACE="Book Antiqua"
+                                            COLOR="BLACK">
+                                            <p ALIGN=justify>En el método mostrarCola, se imprime en la consola la información sobre las colas de estado del algoritmo LRU, utilizando la lista cola que almacena los cambios en los marcos de página a lo largo del tiempo. La variable colaString se actualiza con la misma información pero en formato de cadena, que luego se puede recuperar utilizando el método getCola. El método limpiarDatos se encarga de restablecer las estructuras de datos y variables para preparar el objeto LRU para una nueva ejecución.</p>
+                                        </font>
+                            
+
+                                   
+                            
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <a href="Funcionamiento1_P1.html">
+                                                    <input type="button"
+                                                        value="Atras" />
+                                                </a>
+                                            </td>
+
+                                    </tr>
+                                </table>
+
+                            </tr>
+                        </table>
+
+                        <br>
+                        <br>
+                        <address>
+                            <table BORDER="0" width="850px"
+                                align="center" BGCOLOR="1D396C">
+                                <tr>
+                                    <td>
+                                        <font SIZE="2"
+                                            FACE="Book Antiqua"
+                                            COLOR="WHITE">
+                                            <p ALIGN=justify>
+                                                <b>Colaboradores:</b><br><br>
+                                                -Hugo Jesus Guevara
+                                                Cocolotl 202067905<br>
+                                                -Jesus Eduardo Hernandez
+                                                Bravo 202039944<br>
+                                                -Marlem Martínez
+                                                Castillo 202045355<br>
+                                                -Miryam Salazar Vega
+                                                202075220
+                                            </p>
+                                        </font>
+                                    </td>
+
+                                </tr>
+                            </table>
+
+                        </address>
+                    </main>
+
+                </body>
+
+            </html>

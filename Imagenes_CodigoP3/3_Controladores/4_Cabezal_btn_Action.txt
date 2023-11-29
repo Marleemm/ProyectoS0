@@ -1,0 +1,15 @@
+Este método, vinculado a la acción de un botón 
+en la interfaz gráfica, realiza varias acciones 
+al ser activado. Primero, llama a un método 
+denominado `agregarInfo` pasándole el texto 
+actual del campo de texto `cabezal`. Posteriormente, 
+habilita el campo de texto `cola_elemento` y 
+su botón asociado, al tiempo que deshabilita 
+el campo `cabezal` y el botón `cabezal_btn`. 
+En conjunto, estas acciones sugieren que el 
+método está diseñado para procesar la entrada 
+del usuario desde el campo `cabezal`, llevar a 
+cabo alguna operación relacionada con la información 
+proporcionada, y ajustar el estado de los elementos 
+de la interfaz para guiar la interacción del usuario 
+en un flujo específico de la aplicación.

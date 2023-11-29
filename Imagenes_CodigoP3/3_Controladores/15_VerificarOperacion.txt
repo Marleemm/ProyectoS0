@@ -1,0 +1,12 @@
+Esta función, denominada `VerificarOperacion`, 
+tiene como objetivo verificar si una operación 
+con un determinado método ya ha sido registrada 
+en la lista de resultados (`resultados`). Recibe 
+como parámetro un nombre de método y realiza un 
+bucle a través de los elementos en la lista de 
+resultados. Si encuentra un resultado con el mismo 
+nombre de método, devuelve `true`, indicando que 
+la operación ya ha sido registrada. En caso contrario, 
+si no encuentra ninguna coincidencia, devuelve 
+`false`, indicando que la operación aún no ha sido 
+registrada.

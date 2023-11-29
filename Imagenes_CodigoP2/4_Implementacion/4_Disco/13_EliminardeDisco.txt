@@ -1,0 +1,14 @@
+Este método, se encarga de eliminar 
+un archivo específico (`Archivo a`) 
+del disco y del directorio asociado. 
+Itera sobre la lista de bloques 
+(`n_bloques`) en el disco y busca 
+aquellos bloques que estén ocupados 
+y pertenezcan al archivo que se 
+desea eliminar. Para cada bloque 
+encontrado, se establece su archivo 
+asociado como `null` y su estado 
+como libre (`false`). Luego, utiliza 
+el método `borrarArchivo` del 
+directorio (`dir`) para eliminar la 
+referencia al archivo en el directorio.

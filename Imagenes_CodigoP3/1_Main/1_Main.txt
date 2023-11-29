@@ -1,0 +1,12 @@
+El código Java proporcionado en la clase `Main` 
+actúa como un punto de entrada para la aplicación. 
+En el método `main`, se invoca el método `main` 
+de otra clase llamada `App`, transmitiendo 
+cualquier argumento de línea de comandos 
+proporcionado (`args`). Este enfoque sigue la 
+convención común de separar la lógica principal 
+de la aplicación en una clase específica (`App`
+ en este caso) y utilizar una clase de entrada 
+(`Main`) para iniciar la ejecución, promoviendo 
+así la modularidad y la claridad en la estructura 
+del código.

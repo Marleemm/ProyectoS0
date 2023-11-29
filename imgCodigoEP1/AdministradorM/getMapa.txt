@@ -1,0 +1,7 @@
+Estos son métodos de acceso (getters) que proporcionan acceso a los arrays mapaDeBits y mapa desde fuera de la clase.
+
+getMapaBits():Devuelve el array mapaDeBits, que parece ser un mapa de bits representando el estado de ocupación de 
+bloques de memoria. Este método permite a otras partes del código obtener y utilizar la información contenida en mapaDeBits.
+
+getMapa():Devuelve el array mapa, que parece ser una representación en decimal de la información contenida en mapaDeBits. 
+Este método proporciona acceso a la representación decimal que se ha derivado o convertido a partir del mapa de bits.

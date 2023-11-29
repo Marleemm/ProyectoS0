@@ -1,0 +1,9 @@
+Estos métodos, siguen el patrón 
+getter-setter para el atributo 
+`numero`. `getNumero()` actúa como 
+un getter devolviendo el valor 
+actual del número identificador 
+del bloque, mientras que `setNumero(int numero)` 
+funciona como un setter permitiendo 
+cambiar este valor al proporcionar 
+un nuevo número como parámetro. 

@@ -1,0 +1,7 @@
+El método getProceso es una función de la clase Procesos diseñada para buscar y retornar un objeto 
+Proceso específico dentro de la lista en función de su nombre. El método inicia un iterador desde 
+el primer proceso en la lista y recorre la lista en un bucle while. En cada iteración, verifica si 
+el nombre del proceso actual coincide con el nombre proporcionado. Si encuentra un proceso con el 
+nombre correspondiente, devuelve el objeto Proceso actual. En caso contrario, si se completa la 
+iteración sin encontrar el proceso buscado, el método retorna null. En resumen, este método proporciona
+ una forma de acceder a un proceso específico en la lista basándose en su nombre.

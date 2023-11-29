@@ -1,0 +1,10 @@
+Los métodos `getCabezal` y `setCabezal` 
+siguen el patrón getter-setter para 
+proporcionar acceso controlado al atributo 
+`cabezal`. `getCabezal` actúa como un 
+getter que devuelve la posición actual 
+del cabezal, permitiendo su lectura desde 
+otras clases, mientras que `setCabezal` 
+funciona como un setter que permite 
+modificar la posición del cabezal al 
+asignarle un nuevo valor.

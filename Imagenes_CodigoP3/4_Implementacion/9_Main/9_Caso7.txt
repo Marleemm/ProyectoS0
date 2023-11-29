@@ -1,0 +1,11 @@
+Cuando el usuario selecciona "7", se verifica 
+si la lista de resultados (`resultados`) no 
+está vacía. En caso afirmativo, los resultados 
+se ordenan y se imprime el nombre del algoritmo 
+junto con su promedio para cada entrada en la 
+lista de resultados. Además, se imprime el 
+nombre del algoritmo con el mejor promedio, 
+ya que la lista está ordenada y el mejor 
+resultado está en la primera posición. Si la 
+lista de resultados está vacía, se imprime un 
+mensaje indicando que no hay datos.

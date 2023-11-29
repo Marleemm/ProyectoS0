@@ -1,0 +1,8 @@
+Este método tiene como función imprimir en 
+la consola información detallada sobre el 
+resultado del proceso de planificación de 
+discos. Muestra la posición actual del cabezal, 
+la cola de discos, la lista de distancias 
+entre pistas (`resta`), la suma de estas 
+distancias (`suma`), y el promedio de las 
+distancias.

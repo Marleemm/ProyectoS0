@@ -1,0 +1,4 @@
+Esta parte del código establece la estructura inicial de la clase Procesos y define su estado cuando se 
+crea una nueva instancia de la misma. La clase probablemente incluirá métodos adicionales para agregar, 
+eliminar y manipular procesos en la lista, pero esa implementación específica no se proporciona en el 
+código proporcionado.
